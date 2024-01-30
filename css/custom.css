@@ -288,7 +288,6 @@ a.nav-item.nav-link.active {
 
 .more-link {
     opacity: 0.5;
-    color: rgba(0,0,0,1);
     transition: all .2s ease-in-out;
     text-decoration: none;
 }

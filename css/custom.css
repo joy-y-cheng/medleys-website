@@ -290,6 +290,7 @@ a.nav-item.nav-link.active {
     opacity: 0.5;
     transition: all .2s ease-in-out;
     text-decoration: none;
+    border-bottom: 1px solid;
 }
 
 .more-link:hover {
@@ -335,7 +336,57 @@ a.nav-item.nav-link.active {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
+}
+
+.light-link {
+    color: #ffd4dc;
+    border-bottom: 1px solid #ffd4dc;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.light-link:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.light-link:focus {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.light-link:active {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.dark-link {
+    color: rgb(54 52 96);
+    border-bottom: 1px solid rgb(54 52 96);
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.dark-link:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.dark-link:focus {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.dark-link:active {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
 }
 
 .accordion-header {

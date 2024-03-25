@@ -18,14 +18,40 @@ h1 {
     margin-bottom: 20px;
 }
 
-p {
-    font-family: 'Poppins';
+h2 {
+    font-family: 'luckybonesbold';
+    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+h3 {
+    font-family: 'luckybonesbold';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Poppins';
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.lead {
+    font-size: 20px;
+}
+
 :root {
-    --color: rgb(54 52 96);
+    --medleys-blue: #363460;
+    --medleys-blue-darker: #282744;
+    --medleys-pink: #ffd4dc;
+    --medleys-pink-darker: #efaab8;
+    --love-notes-red: #c13245;
+    --love-notes-red-darker: #982332;
+    --shadow-color: #00000026;
+    --transparent-black: #00000080;
 }
 
 body {
@@ -69,6 +95,24 @@ body {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .modal {
+        --bs-modal-margin: 20px;
+    }
+    .modal-body {
+        padding: 0 20px 0 20px;
+    }
+    .modal-header {
+        padding: 20px;
+    }
+    .col {
+        padding: 10px;
+    }
+    .row {
+        margin: 10px -10px 10px -10px;
+    }
+    .portrait-row {
+        margin: -10px -10px 10px -10px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -86,11 +130,50 @@ body {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .modal {
+        --bs-modal-margin: 20px;
+    }
+    .modal-body {
+        padding: 0 20px 0 20px;
+    }
+    .modal-header {
+        padding: 20px;
+    }
+    .col {
+        padding: 10px;
+    }
+    .row {
+        margin: 10px -10px 10px -10px;
+    }
+    .portrait-row {
+        margin: -10px -10px 10px -10px;
+    }
 }
 
 @media (min-width: 768px) {
     .title-logo {
         width: 500px;
+    }
+    .modal {
+        --bs-modal-margin: 40px;
+    }
+    .modal-body {
+        padding: 20px 40px;
+    }
+    .modal-header {
+        padding: 20px 40px;
+    }
+    .modal-portrait {
+        margin-bottom: 40px;
+    }
+    .col {
+        padding: 10px 20px;
+    }
+    .row {
+        margin: 10px -20px 10px -20px;
+    }
+    .portrait-row {
+        margin: -10px -20px 0 -20px;
     }
     .display-title {
         font-size: 80px;
@@ -125,9 +208,9 @@ body {
 
 .navbar {
     padding: 10px 0px;
-    transition: all .2s ease-in-out;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    position: fixed;
 }
 
 .navbar-nav {
@@ -144,7 +227,7 @@ a.nav-item.nav-link {
     color: rgba(0,0,0,0.5);
     font-weight: 500;
     border: none;
-    transition: all .2s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 a.nav-item.nav-link:hover {
@@ -165,7 +248,7 @@ a.nav-item.nav-link.active {
     margin-top: 12px;
     margin-bottom: 12px;
     opacity: 0.5;
-    transition: all .2s ease-in-out;
+    transition: all .15s ease-in-out;
     font-size: 1rem;
     align-items: center;
     display: flex;
@@ -184,7 +267,7 @@ a.nav-item.nav-link.active {
 
 .icon-link {
     opacity: 0.5;
-    transition: all .2s ease-in-out;
+    transition: all .15s ease-in-out;
     height: 2em;
     margin-left: 20px;
     margin-right: 20px;
@@ -245,6 +328,10 @@ a.nav-item.nav-link.active {
     padding-bottom: 100%;
 }
 
+.col {
+    text-align: center;
+}
+
 .col-img {
     position: absolute;
     width: 100%;
@@ -265,30 +352,17 @@ a.nav-item.nav-link.active {
     padding-bottom: 66.66%;
 }
 
-.col {
-    padding: 10px;
-    text-align: center;
-}
-
-.row {
-    margin: 10px -10px 10px -10px;
-}
-
-.portrait-row {
-    margin: -10px -10px 10px -10px;
-}
-
 .caption {
     margin: 0;
 }
 
-.name {
+.caption-heading {
     margin-bottom: 0;
 }
 
 .more-link {
     opacity: 0.5;
-    transition: all .2s ease-in-out;
+    transition: all .15s ease-in-out;
     text-decoration: none;
     border-bottom: 1px solid;
 }
@@ -320,7 +394,7 @@ a.nav-item.nav-link.active {
     border-radius: 0px;
     border: 0px;
     color: black;
-    transition: all .2s ease-in-out;
+    transition: all .15s ease-in-out;
     line-height: 1.5;
 }
 
@@ -329,7 +403,7 @@ a.nav-item.nav-link.active {
     text-decoration: none;
     border-radius: 0px;
     border: 0px;
-    transition: all .2s ease-in-out;
+    transition: all .15s ease-in-out;
     line-height: 1.5;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     margin-top: 20px;
@@ -341,7 +415,7 @@ a.nav-item.nav-link.active {
     color: #C13245;
     border-bottom: 1px solid #C13245;
     text-decoration: none;
-    transition: all .2s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 .light-link:hover, .light-link:active, .light-link:focus {
@@ -354,7 +428,7 @@ a.nav-item.nav-link.active {
     color: #ffd4dc;
     border-bottom: 1px solid #ffd4dc;
     text-decoration: none;
-    transition: all .2s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 .light-link:hover, .light-link:active, .light-link:focus {
@@ -367,7 +441,7 @@ a.nav-item.nav-link.active {
     color: rgb(54 52 96);
     border-bottom: 1px solid rgb(54 52 96);
     text-decoration: none;
-    transition: all .2s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 .dark-link:hover, .dark-link:active, .dark-link:focus, .red-link:hover, .red-link:active, .red-link:focus {
@@ -388,7 +462,7 @@ a.nav-item.nav-link.active {
     border-radius: 0px;
     border: 0px;
     color: black;
-    transition: all .2s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 .accordion-button:hover {
@@ -486,7 +560,7 @@ ol li::before {
 
 .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 56.155%;
     /* 16:9 */
     padding-top: 25px;
     height: 0;
@@ -531,38 +605,28 @@ ol li::before {
     margin-bottom: 56px;
 }
 
-#portrait-chelsea-greene {
-    object-position: 50% 60%;
+.modal {
+    transition: all .15s ease-in-out;
 }
 
-#portrait-claire-renoe {
-    object-position: 50% 10%;
+.modal.fade .modal-dialog {
+    transition: all .15s ease-out;
+    transform: none;
 }
 
-#portrait-joy-cheng {
-    object-position: 50% 60%;
+.modal-content {
+    border: 0;
+    border-radius: 0;
 }
 
-#portrait-steve-chung {
-    object-position: 50% 50%;
+.modal-header {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    background-color: var(--medleys-blue);
 }
 
-#portrait-madeline-ellmore {
-    object-position: 50% 100%;
-}
-
-#portrait-vincent-lin {
-    object-position: 20% 60%;
-}
-
-#portrait-elliot-kang {
-    object-position: 50% 0%;
-}
-
-#portrait-warren-wu {
-    object-position: 50% 0%;
-}
-
-#portrait-david-xu {
-    object-position: 50% 40%;
+.modal-title {
+    margin: 0;
+    color: var(--medleys-pink);
 }

@@ -111,14 +111,11 @@ body {
     .modal-header {
         padding: 20px;
     }
-    .col {
+    .col-lg-margin {
         padding: 10px;
     }
-    .row {
+    .row-lg-margin {
         margin: 10px -10px 10px -10px;
-    }
-    .portrait-row {
-        margin: -10px -10px 10px -10px;
     }
 }
 
@@ -146,20 +143,28 @@ body {
     .modal-header {
         padding: 20px;
     }
-    .col {
+    .col-lg-margin {
         padding: 10px;
     }
-    .row {
+    .row-lg-margin {
         margin: 10px -10px 10px -10px;
-    }
-    .portrait-row {
-        margin: -10px -10px 10px -10px;
     }
 }
 
 @media (min-width: 768px) {
     .title-logo {
         width: 500px;
+    }
+    .display-title {
+        font-size: 80px;
+        bottom: calc(0% + 60px);
+    }
+    .jumbotron {
+        height: 500px;
+    }
+    .content-wrap {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     .modal {
         --bs-modal-margin: 40px;
@@ -173,25 +178,11 @@ body {
     .modal-portrait {
         margin-bottom: 40px;
     }
-    .col {
+    .col-lg-margin {
         padding: 10px 20px;
     }
-    .row {
+    .row-lg-margin {
         margin: 10px -20px 10px -20px;
-    }
-    .portrait-row {
-        margin: -10px -20px 0 -20px;
-    }
-    .display-title {
-        font-size: 80px;
-        bottom: calc(0% + 60px);
-    }
-    .jumbotron {
-        height: 500px;
-    }
-    .content-wrap {
-        padding-top: 40px;
-        padding-bottom: 40px;
     }
 }
 
@@ -337,6 +328,18 @@ a.nav-item.nav-link.active {
 
 .col {
     text-align: center;
+}
+
+.col-sm-margin {
+    text-align: center;
+}
+
+.row-sm-margin {
+    margin: 10px -10px 10px -10px;
+}
+
+.portrait-row {
+    margin: -10px -10px 10px -10px;
 }
 
 .col-img {

@@ -352,14 +352,6 @@ a.nav-item.nav-link.active {
     padding-bottom: 66.66%;
 }
 
-.caption {
-    margin: 0;
-}
-
-.caption-heading {
-    margin-bottom: 0;
-}
-
 .more-link {
     opacity: 0.5;
     transition: all .15s ease-in-out;
@@ -371,7 +363,7 @@ a.nav-item.nav-link.active {
     opacity: 1;
 }
 
-.more-link.active {
+.more-link:active {
     opacity: 1;
 }
 
@@ -422,6 +414,7 @@ a.nav-item.nav-link.active {
     text-decoration: none;
     color: white;
     border-bottom: 1px solid white;
+    cursor: pointer;
 }
 
 .light-link {
@@ -429,12 +422,6 @@ a.nav-item.nav-link.active {
     border-bottom: 1px solid #ffd4dc;
     text-decoration: none;
     transition: all .15s ease-in-out;
-}
-
-.light-link:hover, .light-link:active, .light-link:focus {
-    text-decoration: none;
-    color: white;
-    border-bottom: 1px solid white;
 }
 
 .dark-link {
@@ -448,6 +435,7 @@ a.nav-item.nav-link.active {
     text-decoration: none;
     color: black;
     border-bottom: 1px solid black;
+    cursor: pointer;
 }
 
 .accordion-header {
@@ -577,23 +565,6 @@ ol li::before {
     height: 100%;
 }
 
-.btn-outline-custom {
-    --bs-btn-color: rgb(54 52 96);
-    --bs-btn-border-color: rgb(54 52 96);
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: rgb(54 52 96);
-    --bs-btn-hover-border-color: rgb(54 52 96);
-    --bs-btn-focus-shadow-rgb: 13, 110, 253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: rgb(54 52 96);
-    --bs-btn-active-border-color: rgb(54 52 96);
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: rgb(54 52 96);
-    --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: rgb(54 52 96);
-    --bs-gradient: none;
-}
-
 .embed-responsive-item {
     width: 100%;
     min-height: 70vh;
@@ -626,7 +597,44 @@ ol li::before {
     background-color: var(--medleys-blue);
 }
 
+.modal-body {
+    background-color: var(--medleys-pink);
+}
+
 .modal-title {
     margin: 0;
     color: var(--medleys-pink);
+}
+
+.caption {
+    margin: 0;
+}
+
+.caption-heading {
+    margin-bottom: 0;
+}
+
+.modal-heading {
+    margin-bottom: 0;
+    color: var(--medleys-blue);
+}
+
+.close {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    transition: all .15s ease-in-out;
+    fill: var(--medleys-pink);
+}
+
+.close:hover {
+    fill: white;
+}
+
+.close:active {
+    fill: white;
+}
+
+.close:focus {
+    fill: white;
 }

@@ -6,6 +6,17 @@
     font-style: normal;
 }
 
+:root {
+    --medleys-blue: #363460;
+    --medleys-blue-darker: #282744;
+    --medleys-pink: #ffd4dc;
+    --medleys-pink-darker: #efaab8;
+    --love-notes-red: #c13245;
+    --love-notes-red-darker: #982332;
+    --shadow-color: #00000026;
+    --transparent-black: #00000080;
+}
+
 body {
     color: black;
     line-height: 1.5;
@@ -20,12 +31,19 @@ h1 {
 
 h2 {
     font-family: 'luckybonesbold';
-    font-size: 24px;
+    font-size: 32px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 h3 {
+    font-family: 'luckybonesbold';
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
     font-family: 'luckybonesbold';
     font-size: 20px;
     margin-top: 20px;
@@ -41,17 +59,6 @@ p {
 
 .lead {
     font-size: 20px;
-}
-
-:root {
-    --medleys-blue: #363460;
-    --medleys-blue-darker: #282744;
-    --medleys-pink: #ffd4dc;
-    --medleys-pink-darker: #efaab8;
-    --love-notes-red: #c13245;
-    --love-notes-red-darker: #982332;
-    --shadow-color: #00000026;
-    --transparent-black: #00000080;
 }
 
 body {
@@ -209,7 +216,7 @@ body {
 .navbar {
     padding: 10px 0px;
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px var(--shadow-color);
     position: fixed;
 }
 
@@ -224,18 +231,18 @@ a.nav-item.nav-link {
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: rgba(0,0,0,0.5);
+    color: var(--transparent-black);
     font-weight: 500;
     border: none;
     transition: all .15s ease-in-out;
 }
 
 a.nav-item.nav-link:hover {
-    color: rgba(0,0,0,1);
+    color: black;
 }
 
 a.nav-item.nav-link.active {
-    color: rgba(0,0,0,1);
+    color: black;
 }
 
 .navbar-toggler {
@@ -252,7 +259,7 @@ a.nav-item.nav-link.active {
     font-size: 1rem;
     align-items: center;
     display: flex;
-    color: rgba(0,0,0,1);
+    color: black;
 }
 
 
@@ -368,14 +375,14 @@ a.nav-item.nav-link.active {
 }
 
 .shadow {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0px 0px 10px var(--shadow-color) !important;
 }
 
 .accordion-item {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0px 0px 10px var(--shadow-color) !important;
 }
 
 .accordion-button {
@@ -397,15 +404,15 @@ a.nav-item.nav-link.active {
     border: 0px;
     transition: all .15s ease-in-out;
     line-height: 1.5;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px var(--shadow-color);
     margin-top: 20px;
     margin-bottom: 20px;
 
 }
 
 .red-link {
-    color: #C13245;
-    border-bottom: 1px solid #C13245;
+    color: var(--love-notes-red);
+    border-bottom: 1px solid var(--love-notes-red);
     text-decoration: none;
     transition: all .15s ease-in-out;
 }
@@ -418,15 +425,15 @@ a.nav-item.nav-link.active {
 }
 
 .light-link {
-    color: #ffd4dc;
-    border-bottom: 1px solid #ffd4dc;
+    color: var(--medleys-pink);
+    border-bottom: 1px solid var(--medleys-pink);
     text-decoration: none;
     transition: all .15s ease-in-out;
 }
 
 .dark-link {
-    color: rgb(54 52 96);
-    border-bottom: 1px solid rgb(54 52 96);
+    color: var(--medleys-blue);
+    border-bottom: 1px solid var(--medleys-blue);
     text-decoration: none;
     transition: all .15s ease-in-out;
 }
@@ -455,22 +462,22 @@ a.nav-item.nav-link.active {
 
 .accordion-button:hover {
     color: white;
-    background-color: rgb(54 52 96) !important;
+    background-color: var(--medleys-blue) !important;
 }
 
 .accordion-button:focus {
     color: white;
-    background-color: rgb(54 52 96) !important;
+    background-color: var(--medleys-blue) !important;
 }
 
 .red-btn {
     color: white;
-    background-color: #c13245 !important;
+    background-color: var(--love-notes-red) !important;
 }
 
 .pink-btn {
     color: black;
-    background-color: #ffd4dc !important;
+    background-color: var(--medleys-pink) !important;
 }
 
 .red-btn:hover, .red-btn:focus, .pink-btn:hover, .pink-btn:focus {
@@ -492,14 +499,14 @@ textarea {
 }
 
 .form-control::placeholder {
-    color: rgba(0,0,0,0.5);
+    color: var(--transparent-black);
     opacity: 1;
 }
 
 .accordion-button:not(.collapsed), .accordion-button:not(.collapsed):focus {
     box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px;
     color: white;
-    background-color: rgb(54 52 96);
+    background-color: var(--medleys-blue);
 }
 
 .accordion-button::after {
@@ -528,7 +535,7 @@ ol li {
 
 ol li::before {
     content: counter(list-counter);
-    color: #C13245;
+    color: var(--love-notes-red);
     font-family: 'luckybonesbold';
     font-weight: bold;
     position: absolute;
@@ -539,11 +546,11 @@ ol li::before {
     width: var(--size);
     height: var(--size);
     top: 0;
-    background: #ffd4dc;
+    background: var(--medleys-pink);
     border-radius: 50%;
     text-align: center;
     font-size: 40px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px var(--shadow-color);
 }
 
 .videoWrapper {
@@ -554,7 +561,7 @@ ol li::before {
     height: 0;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px var(--shadow-color);
 }
 
 .videoWrapper iframe {
@@ -601,7 +608,7 @@ ol li::before {
 .modal-header {
     border: 0;
     border-radius: 0;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px var(--shadow-color);
 }
 
 .dark-modal-header {

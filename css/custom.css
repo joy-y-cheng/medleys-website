@@ -331,7 +331,7 @@ a.nav-item.nav-link.active {
 }
 
 .col-sm-margin {
-    text-align: center;
+    padding: 10px;
 }
 
 .row-sm-margin {

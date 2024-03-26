@@ -117,6 +117,10 @@ body {
     .row-lg-margin {
         margin: 10px -10px 10px -10px;
     }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        margin: 20px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -148,6 +152,10 @@ body {
     }
     .row-lg-margin {
         margin: 10px -10px 10px -10px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        margin: 20px;
     }
 }
 
@@ -183,6 +191,10 @@ body {
     }
     .row-lg-margin {
         margin: 10px -20px 10px -20px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        margin: 40px;
     }
 }
 
@@ -588,13 +600,6 @@ ol li::before {
     margin-bottom: 56px;
     display: initial;
     width: initial;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    margin: 20px;
-    width: 2em;
-    height: 2em;
 }
 
 .modal {

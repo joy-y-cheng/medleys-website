@@ -590,22 +590,6 @@ ol li::before {
     border-radius: 0;
 }
 
-.modal-header {
-    border: 0;
-    border-radius: 0;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-    background-color: var(--medleys-blue);
-}
-
-.modal-body {
-    background-color: var(--medleys-pink);
-}
-
-.modal-title {
-    margin: 0;
-    color: var(--medleys-pink);
-}
-
 .caption {
     margin: 0;
 }
@@ -614,7 +598,46 @@ ol li::before {
     margin-bottom: 0;
 }
 
-.modal-heading {
+.modal-header {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.dark-modal-header {
+    background-color: var(--medleys-pink);
+}
+
+.light-modal-header {
+    background-color: var(--medleys-blue);
+}
+
+.modal-title {
+    margin: 0;
+}
+
+.dark-modal-title {
+    color: var(--medleys-blue);
+}
+
+.light-modal-title {
+    color: var(--medleys-pink);
+}
+
+.dark-modal-body {
+    background-color: var(--medleys-blue);
+}
+
+.light-modal-body {
+    background-color: var(--medleys-pink);
+}
+
+.dark-modal-heading {
+    margin-bottom: 0;
+    color: var(--medleys-pink);
+}
+
+.light-modal-heading {
     margin-bottom: 0;
     color: var(--medleys-blue);
 }
@@ -624,17 +647,21 @@ ol li::before {
     padding: 0;
     margin: 0;
     transition: all .15s ease-in-out;
+    margin-left: 20px;
+}
+
+.dark-modal-close {
+    fill: var(--medleys-blue);
+}
+
+.light-modal-close {
     fill: var(--medleys-pink);
 }
 
-.close:hover {
-    fill: white;
+.dark-modal-close:hover, .dark-modal-close:active, .dark-modal-close:focus {
+    fill: black;
 }
 
-.close:active {
-    fill: white;
-}
-
-.close:focus {
+.light-modal-close:hover, .light-modal-close:active, .light-modal-close:focus {
     fill: white;
 }

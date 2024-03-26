@@ -556,18 +556,17 @@ ol li::before {
     box-shadow: 0px 0px 10px var(--shadow-color);
 }
 
-.videoWrapper {
+.video-wrapper {
     position: relative;
-    padding-bottom: 56.155%;
     /* 16:9 */
-    padding-top: 25px;
+    padding-bottom: 56.155%;
     height: 0;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 10px var(--shadow-color);
 }
 
-.videoWrapper iframe {
+.video-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -575,15 +574,27 @@ ol li::before {
     height: 100%;
 }
 
-.embed-responsive-item {
-    width: 100%;
-    min-height: 70vh;
+.carousel-video {
+    margin: 0;
+}
+
+.carousel {
+    margin: 20px 0;
 }
 
 .carousel-control-prev,
 .carousel-control-next {
     margin-top: 56px;
     margin-bottom: 56px;
+    display: initial;
+    width: initial;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    margin: 20px;
+    width: 2em;
+    height: 2em;
 }
 
 .modal {

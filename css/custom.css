@@ -10,9 +10,9 @@
     --medleys-blue: #363460;
     --medleys-blue-darker: #282744;
     --medleys-pink: #ffd4dc;
-    --medleys-pink-darker: #efaab8;
+    --medleys-pink-darker: #fac0ca;
     --love-notes-red: #c13245;
-    --love-notes-red-darker: #982332;
+    --love-notes-red-darker: #a92334;
     --shadow-color: #00000026;
     --transparent-black: #00000080;
 }
@@ -61,13 +61,13 @@ p {
     font-size: 16px;
 }
 
-.lead {
-    font-size: 20px;
-}
-
 body {
     margin: 0;
     font-family: Poppins;
+}
+
+.lead {
+    font-size: 20px;
 }
 
 .container-md {
@@ -85,6 +85,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     margin: 0;
+    color: white;
 }
 
 .title-logo {
@@ -95,32 +96,41 @@ body {
     .title-logo {
         width: 300px;
     }
+
     .display-title {
         font-size: 60px;
         bottom: calc(0% + 40px);
     }
+
     .jumbotron {
         height: 300px;
     }
+
     .content-wrap {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
     .modal {
         --bs-modal-margin: 20px;
     }
+
     .modal-body {
         padding: 0 20px 0 20px;
     }
+
     .modal-header {
         padding: 20px;
     }
+
     .col-lg-margin {
         padding: 10px;
     }
+
     .row-lg-margin {
         margin: 10px -10px 10px -10px;
     }
+
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         margin: 20px;
@@ -131,32 +141,41 @@ body {
     .title-logo {
         width: 400px;
     }
+
     .display-title {
         font-size: 60px;
         bottom: calc(0% + 40px);
     }
+
     .jumbotron {
         height: 400px;
     }
+
     .content-wrap {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
     .modal {
         --bs-modal-margin: 20px;
     }
+
     .modal-body {
         padding: 0 20px 0 20px;
     }
+
     .modal-header {
         padding: 20px;
     }
+
     .col-lg-margin {
         padding: 10px;
     }
+
     .row-lg-margin {
         margin: 10px -10px 10px -10px;
     }
+
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         margin: 20px;
@@ -167,35 +186,45 @@ body {
     .title-logo {
         width: 500px;
     }
+
     .display-title {
         font-size: 80px;
         bottom: calc(0% + 60px);
     }
+
     .jumbotron {
         height: 500px;
     }
+
     .content-wrap {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
     .modal {
         --bs-modal-margin: 40px;
     }
+
     .modal-body {
         padding: 20px 40px;
     }
+
     .modal-header {
         padding: 20px 40px;
     }
+
     .modal-portrait {
         margin-bottom: 40px;
     }
+
     .col-lg-margin {
         padding: 10px 20px;
     }
+
     .row-lg-margin {
         margin: 10px -20px 10px -20px;
     }
+
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         margin: 40px;
@@ -212,9 +241,11 @@ body {
     .title-logo {
         width: 700px;
     }
+
     .container-md {
         max-width: 1140px;
     }
+    
     .jumbotron {
         height: 700px;
     }
@@ -305,11 +336,6 @@ a.nav-item.nav-link.active {
     min-height: 50vw;
 }
 
-.container {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
 .content-wrap {
     margin: 0 auto;
 }
@@ -334,7 +360,6 @@ a.nav-item.nav-link.active {
 
 .portrait-container {
     position: relative;
-    /* transform: translateX(-50%); */
 }
 
 .portrait-container::after {
@@ -361,12 +386,10 @@ a.nav-item.nav-link.active {
     height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
-
 }
 
 .col-img-container {
     position: relative;
-    /* transform: translateX(-50%); */
 }
 
 .col-img-container::after {
@@ -505,9 +528,14 @@ a.nav-item.nav-link.active {
     background-color: var(--medleys-pink) !important;
 }
 
-.red-btn:hover, .red-btn:focus, .pink-btn:hover, .pink-btn:focus {
-    color: black;
-    background-color: white !important;
+.red-btn:hover, .red-btn:focus {
+    color: white !important;
+    background-color: var(--love-notes-red-darker) !important;
+}
+
+.pink-btn:hover, .pink-btn:focus {
+    color: black !important;
+    background-color: var(--medleys-pink-darker) !important;
 }
 
 .form-control {

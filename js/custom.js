@@ -1,5 +1,5 @@
 const carouselDiv = document.getElementById("carousel-performances");
-var carouselBootstrap = bootstrap.Carousel.getOrCreateInstance(carouselDiv);
+// var carouselBootstrap = bootstrap.Carousel.getOrCreateInstance(carouselDiv);
 
 // This is the index of the active player.
 var carouselActiveIndex = 0;

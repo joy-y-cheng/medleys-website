@@ -44,18 +44,20 @@
                 <h1 style="color: var(--medleys-pink);">Get in Touch</h1>
                 <p class="lead">Interested in having us sing for your organization or event? We volunteer anywhere from hospitals and shelters to elementary schools! We also like to help out with a day of service before or after our performance. Please send us a message if you'd like to learn more!</p>
                 <p>Email us at <a class="light-link" target="blank" href="mailto:medleys@g.ucla.edu">medleys@g.ucla.edu</a> or fill out the form below.</p>
-                <form>
+                <form action="https://formsubmit.co/joycheng@g.ucla.edu" method="POST">
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="emailInput" placeholder="Email address">
+                        <input type="email" name="Email" class="form-control" id="emailInput" placeholder="Email address">
                     </div>
                     <div class="mb-3">
-                        <input class="form-control" id="subjectInput" placeholder="Subject">
+                        <input name="Subject" class="form-control" id="subjectInput" placeholder="Subject">
                     </div>
                     <div class="mb-3">
-                        <textarea class="form-control" id="messageInput" rows="4" placeholder="Message"></textarea>
+                        <textarea name="Message" class="form-control" id="messageInput" rows="4" placeholder="Message"></textarea>
                     </div>
+                    <input type="hidden" name="_next" value="https://joy-y-cheng.github.io/medleys-website/contact/thank-you">
+                    <input type="hidden" name="_captcha" value="false">
                     <button type="submit" class="pink-btn" style="margin-top: 0;"><p style="margin: 0; font-weight: 300;">Submit</p></button>
-                  </form>
+                </form>
             </div>
         </div>
         <footer class="footer">

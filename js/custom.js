@@ -26,3 +26,11 @@ function onYouTubeIframeAPIReady() {
             carouselActiveIndex -= carouselPlayers.length;
     });
 }
+
+// Display image logo when video logo is done playing
+var videoLogo = document.getElementById('video-logo');
+var imageLogo = document.getElementById('image-logo');
+videoLogo.addEventListener('ended', function() {
+    videoLogo.style.display = 'none';
+    imageLogo.style.display = 'inline';
+}, false);

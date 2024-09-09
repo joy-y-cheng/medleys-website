@@ -90,6 +90,7 @@ body {
 
 .title-logo {
     max-width: 100%;
+    mix-blend-mode: lighten;
 }
 
 @media (max-width: 575px) {

@@ -88,6 +88,10 @@ body {
     color: white;
 }
 
+.title-logo {
+    max-width: 100%;
+}
+
 @media (max-width: 575px) {
     .title-logo {
         width: 425px;

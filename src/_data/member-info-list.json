@@ -42,37 +42,36 @@
                 "quote": "\"When your tail is missing, remember you have every right to mope.\" —Eeyore (<i>Winnie the Pooh</i>)"
             },
             {
-                "name": "Jodie Kiyokawa",
-                "year-joined": "2022",
+                "name": "Sandra Pan",
+                "year-joined": "2024",
                 "voice-part": "Soprano",
                 "pronouns": "She/Her",
-                "slug": "jodie-kiyokawa",
-                "class": "2024",
-                "major": "Astrophysics",
-                "hometown": "Honolulu, HI",
-                "interests": "Singing, eating, skiing, hiking, Brazilian jiu-jitsu, baking, and playing with my dog",
-                "fun-fact": "I went skydiving on my 18th birthday!",
-                "audition-song": "\"928 Miles\" by Ellie Banke",
-                "shower-song": "\"Dancing in the Moonlight\" by King Harvest",
-                "musical-artist": "Sammy Johnson or Couch"
+                "slug": "sandra-pan",
+                "class": "2027",
+                "major": "Cognitive Science",
+                "hometown": "Hacienda Heights, CA",
+                "interests": "Dancing, playing the piano, thrifting, journaling, watching cooking shows, drinking matcha",
+                "fun-fact": "I can do a backflip!",
+                "audition-song": "\"From the Start\" by Laufey",
+                "shower-song": "\"Happier than Ever\" by Billie Eilish",
+                "musical-artist": "wave to earth and beabadoobee",
+                "quote": "\"就多走一步路！\" —My mom :)"
             },
             {
-                "name": "Claire Renoe",
-                "year-joined": "2020",
+                "name": "Amanda Lo",
+                "year-joined": "2024",
                 "voice-part": "Soprano",
                 "pronouns": "She/Her",
-                "slug": "claire-renoe",
-                "past-leadership": "Birthday Chair, Manager",
-                "class": "2024",
-                "major": "Theater",
-                "minor": "Cognitive Science",
-                "hometown": "Berkeley, CA",
-                "interests": "Tennis, theater, and shopping at Trader Joe's",
-                "fun-fact": "Heelys are my favorite mode of transportation.",
-                "audition-song": "\"Mama Who Bore Me\" from <i>Spring Awakening</i>",
-                "shower-song": "\"Love on Top\" by Beyoncé",
-                "musical-artist": "Janis Joplin or King's Harvest",
-                "quote": "\"What's Walmart, do they sell like wall stuff?\" —Paris Hilton"
+                "slug": "amanda-lo",
+                "class": "2028",
+                "major": "Chemical Engineering",
+                "hometown": "Vallejo, CA",
+                "interests": "Photography, soccer, reading, sewing, and collecting lip products and smiskis!",
+                "fun-fact": "I used to work at Build-A-Bear!",
+                "audition-song": "\"From the Start\" by Laufey",
+                "shower-song": "\"Upside Down\" by Jack Johnson!",
+                "musical-artist": "Taylor Swift",
+                "quote": "\"Hard work beats talent when talent doesn’t work hard.\" —Tim Notke"
             }
         ]
     },
@@ -97,23 +96,6 @@
                 "shower-song": "\"Someone Like You\" by Adele",
                 "musical-artist": "Bruno Major or Ricky Montgomery",
                 "quote": "\"The whole world is a series of miracles, but we're so used to them we call them ordinary things.\" —Hans Christian Anderson"
-            },
-            {
-                "name": "Madeline Ellmore",
-                "year-joined": "2020",
-                "voice-part": "Alto",
-                "pronouns": "She/Her",
-                "slug": "madeline-ellmore",
-                "past-leadership": "Love Notes Manager",
-                "class": "2024",
-                "majors": "Marine Biology, Spanish and Portuguese",
-                "hometown": "Lexington, MA",
-                "interests": "Producing music, working out, playing/learning instruments, boxing, hiking, and ultimate frisbee",
-                "fun-fact": "My dog threw out the first pitch at Fenway Park.",
-                "audition-song": "\"Rolling in the Deep\" by Adele",
-                "shower-song": "\"Telephone\" by Lady Gaga",
-                "musical-artist": "Laufey, Guaco, or Rob Ruha",
-                "quote": "\"I'd rather be hated for who I am than loved for who I am not.\" —Kurt Cobain"
             },
             {
                 "name": "Lani Jacobson",
@@ -176,40 +158,6 @@
         "members":
         [
             {
-                "name": "Joseph Engle",
-                "year-joined": "2022",
-                "voice-part": "Tenor",
-                "pronouns": "He/Him",
-                "slug": "joseph-engle",
-                "past-leadership": "Member Development Chair",
-                "class": "2024",
-                "major": "Psychology",
-                "hometown": "Elk Grove, CA",
-                "interests": "Psychology, music, video games, film, and writing!",
-                "fun-fact": "Ikea is my happy place.",
-                "audition-song": "\"Glimpse of Us\" by Joji",
-                "shower-song": "\"The King\" by Sarah Kinsley",
-                "musical-artist": "Lately, Rina Sawayama!",
-                "quote": "\"Life is difficult. This is a great truth, one of the greatest truths. It is a great truth because once we truly see this truth, we transcend it.\" —M. Scott Peck"
-            },
-            {
-                "name": "Vincent Lin",
-                "year-joined": "2022",
-                "voice-part": "Tenor",
-                "pronouns": "He/Him",
-                "slug": "vincent-lin",
-                "past-leadership": "Member Development Chair",
-                "class": "2024 (Master's)",
-                "major": "Electrical and Computer Engineering",
-                "hometown": "China",
-                "interests": "Working out, basketball, sleeping, watching TV shows, and taking walks",
-                "fun-fact": "I like to meditate in the restroom.",
-                "audition-song": "\"When I Was Your Man\" by Bruno Mars",
-                "shower-song": "\"Forever Love\" by Leehom Wang",
-                "musical-artist": "Bruno Mars",
-                "quote": "\"If you had one shot, or one opportunity<br>To seize everything you ever wanted<br>One moment<br>Would you capture it or just let it slip?\""
-            },
-            {
                 "name": "Jack Moore",
                 "year-joined": "2021",
                 "voice-part": "Tenor, Vocal Percussionist",
@@ -259,6 +207,22 @@
                 "shower-song": "\"City of Stars\" from <i>La La Land</i>",
                 "musical-artist": "Jon Bellion",
                 "quote": "\"We ride and we die.\""
+            },
+            {
+                "name": "Brandon Tang",
+                "year-joined": "2024",
+                "voice-part": "Tenor",
+                "pronouns": "He/Him",
+                "slug": "brandon-tang",
+                "class": "2027",
+                "major": "Materials Science Engineering",
+                "hometown": "Placentia, CA",
+                "interests": "Film history, fashion, thrifting, reading, going out to eat",
+                "fun-fact": "My dad was in a Chinese cover band!",
+                "audition-song": "\"Dangerously in Love\" by Beyonce",
+                "shower-song": "\"Bills, Bills, Bills\" by Destiny's Child",
+                "musical-artist": "Ariana Grande",
+                "quote": "\"You never know the value of a moment until it becomes a memory.\""
             }
         ]
     },
@@ -336,6 +300,21 @@
                 "shower-song": "\"Talking to the Moon\" by Bruno Mars",
                 "musical-artist": "Bruno Mars, Lauv, or Drake",
                 "quote": "\"Everyone wants to save the world, but no one wants to help Mom do the dishes.\""
+            },
+            {
+                "name": "Justin Yoo",
+                "year-joined": "2024",
+                "voice-part": "Bass",
+                "pronouns": "He/Him",
+                "slug": "justin-yoo",
+                "class": "2028",
+                "major": "Biology",
+                "hometown": "Encinitas, CA",
+                "interests": "Piano/clarinet, video games, anime/manga, origami, dancing, humming",
+                "fun-fact": "I can Russian dance.",
+                "audition-song": "\"Sixteen Tons\" by Tennessee Ernie Ford (covered by Geoff Castellucci)",
+                "shower-song": "\"Kickback\" by Yonezu Kenshi and other anime songs",
+                "musical-artist": "Ado"
             }
         ]
     }

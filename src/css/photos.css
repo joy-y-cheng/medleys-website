@@ -46,6 +46,30 @@
     object-position: 50% 50%;
 }
 
+.portrait-brandon-tang {
+    width: 160%;
+    transform: translate(-12%, 0%);
+    object-position: 50% 77%;
+}
+
+.portrait-sandra-pan {
+    width: 140%;
+    transform: translate(-14%, 0%);
+    object-position: 50% 75%;
+}
+
+.portrait-amanda-lo {
+    width: 135%;
+    transform: translate(-11%, 0%);
+    object-position: 50% 30%;
+}
+
+.portrait-lani-jacobson {
+    height: 110%;
+    transform: translate(0%, -8%);
+    object-position: 50% 50%;
+}
+
 .img-pediatric-aids-coalition::after {
     padding-bottom: 56.155%;
 }

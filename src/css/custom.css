@@ -358,13 +358,14 @@ a.nav-item.nav-link.active {
     position: absolute;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
     object-fit: cover;
     object-position: 50% 25%;
 }
 
 .portrait-container {
     position: relative;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .portrait-container::after {

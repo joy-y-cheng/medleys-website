@@ -60,19 +60,41 @@
         ]
     },
     {
-        "organization": "Habitat for Humanity × UCLA Bruin Belles Service Association",
-        "slug": "habitat-for-humanity",
-        "description": "We competed in UCLA Bruin Belles Service Association's first-ever charity dodgeball tournament—the 2024 BelleBall Tournament—and won! As the winners, we had the opportunity to donate $1,000 to a charity of our choice. We chose Habitat for Humanity as the charity to receive the donation.",
-        "images": 3,
+        "organization": "Assistance League of Los Angeles Preschool Learning Center",
+        "slug": "alla-preschool",
+        "description": "In December 2024, we sang carols for the children at Assistance League of Los Angeles's Preschool Learning Center! We also had the joy of singing with the children and teaching them one of our favorite musical rounds.",
+        "images": 2,
         "links":
         [
             {
-                "text": "Learn more about Habitat for Humanity",
-                "url": "https://www.habitat.org/"
-            },
+                "text": "Learn more about the Preschool Learning Center",
+                "url": "https://assistanceleaguela.org/preschool-learning-center/"
+            }
+        ]
+    },
+    {
+        "organization": "Wise & Healthy Aging",
+        "slug": "waha",
+        "description": "We visited the Senior and Adult Day Center at Wise & Healthy Aging in December 2024 and sang carols to spread holiday cheer! We also shared a few songs from our fall setlist with the individuals there.",
+        "images": 1,
+        "links":
+        [
             {
-                "text": "Learn more about UCLA Bruin Belles Service Association",
-                "url": "https://www.bruinbelles.com/"
+                "text": "Learn more about Wise & Healthy Aging",
+                "url": "https://www.wiseandhealthyaging.org/"
+            }
+        ]
+    },
+    {
+        "organization": "UCLA Santa Monica Medical Center",
+        "slug": "ucla-smmc",
+        "description": "In 2024, we visited the pediatric unit at the UCLA Santa Monica Medical Center and had the honor of singing for the patients as part of the Chase Child Life Program. We sang a mix of pop songs and caroled during the holiday season to help ease the stress of a hospital stay.",
+        "images": 0,
+        "links":
+        [
+            {
+                "text": "Learn more about the Chase Child Life Program",
+                "url": "https://www.chasefoundation.org/chase_child_life_program"
             }
         ]
     },
@@ -103,6 +125,23 @@
         ]
     },
     {
+        "organization": "Habitat for Humanity × UCLA Bruin Belles Service Association",
+        "slug": "habitat-for-humanity",
+        "description": "We competed in UCLA Bruin Belles Service Association's first-ever charity dodgeball tournament—the 2024 BelleBall Tournament—and won! As the winners, we had the opportunity to donate $1,000 to a charity of our choice. We chose Habitat for Humanity as the charity to receive the donation.",
+        "images": 3,
+        "links":
+        [
+            {
+                "text": "Learn more about Habitat for Humanity",
+                "url": "https://www.habitat.org/"
+            },
+            {
+                "text": "Learn more about UCLA Bruin Belles Service Association",
+                "url": "https://www.bruinbelles.com/"
+            }
+        ]
+    },
+    {
         "organization": "Assistance League of Los Angeles Family Day of Service",
         "slug": "alla",
         "description": "We joined Assistance League of Los Angeles in November 2024 for their Family Day of Service: \"Sweet Dreams and Cozy Nights\"! We made no-sew blankets for unhoused and foster youth in Los Angeles.",
@@ -118,7 +157,7 @@
     {
         "organization": "L.A. Cancer Challenge",
         "slug": "lacc",
-        "description": "In October 2024, we had a great time helping at the 27th Annual 5K Walk/Run which supports the Hirshberg Foundation for Pancreatic Cancer Research.",
+        "description": "In October 2024, we helped set up for the 27th Annual 5K Walk/Run which supports the Hirshberg Foundation for Pancreatic Cancer Research.",
         "images": 2,
         "links":
         [
@@ -135,26 +174,13 @@
     {
         "organization": "Children's Hunger Fund",
         "slug": "hunger-fund",
-        "description": "We had an awesome time volunteering at the Children's Hunger Fund for UCLA Volunteer Day in October 2024.",
+        "description": "We volunteered at the Children's Hunger Fund for UCLA Volunteer Day in October 2024!",
         "images": 2,
         "links":
         [
             {
                 "text": "Learn more about the Children's Hunger Fund",
                 "url": "https://childrenshungerfund.org/"
-            }
-        ]
-    },
-    {
-        "organization": "UCLA Santa Monica Medical Center",
-        "slug": "ucla-smmc",
-        "description": "In 2024, we visited the pediatric unit at the UCLA Santa Monica Medical Center and had the honor of singing for the patients there as part of the Chase Child Life Program. We sang a mix of pop songs to help ease the stress of a hospital stay.",
-        "images": 0,
-        "links":
-        [
-            {
-                "text": "Learn more about the Chase Child Life Program",
-                "url": "https://www.chasefoundation.org/chase_child_life_program"
             }
         ]
     },
@@ -178,7 +204,7 @@
     {
         "organization": "Providence Saint John's Health Center",
         "slug": "saint-johns",
-        "description": "In 2019, we were honored to sing for the incredibly strong patients and hardworking staff at Providence Saint John's Health Center in Santa Monica.",
+        "description": "In 2019, we were honored to sing for the patients and hardworking staff at Providence Saint John's Health Center in Santa Monica.",
         "images": 3,
         "links":
         [

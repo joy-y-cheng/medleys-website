@@ -3,7 +3,7 @@ layout: _layout.html
 title: Service
 root: ../
 ---
-        <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('{{root}}assets/photos/service.jpg'); background-position: 50% 80%;">
+        <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('{{root}}assets/photos/service.jpg'); background-position: 50% 40%;">
             <div class="container">
                 <h1 class="display-title">Service</h1>
             </div>
@@ -16,7 +16,7 @@ root: ../
         </div>
         <div class="content-wrap" style="background-color: var(--medleys-pink);">
             <div class="container-md" style="text-align: left; color: white;">
-                <h1 style="color: var(--medleys-blue); margin-bottom: 0;">Current Partnerships and Recent Events</h1>
+                <h1 style="color: var(--medleys-blue); margin-bottom: 0;">Partnerships and Events</h1>
                 <div class="row row-sm-margin" data-masonry='{"percentPosition": true }'>
                     {%- for service in service-info-list-%}
                     {%- if service.is-current -%}

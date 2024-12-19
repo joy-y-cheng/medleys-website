@@ -1,7 +1,6 @@
 [
     {
         "organization": "Love Notes",
-        "is-current": true,
         "slug": "love-notes",
         "description": "Every year during the week of Valentine's Day, we raise money for the Downtown Women's Center through our Love Notes fundraiser during which we offer live and virtual serenades. This year, we delivered over 100 Love Notes and raised almost $2,000! You can support our cause by ordering a Love Note for a loved one.",
         "images": 4,
@@ -10,17 +9,7 @@
             {
                 "text": "Learn more about Love Notes",
                 "url": "https://medleysacappella.org/love-notes"
-            }
-        ]
-    },
-    {
-        "organization": "Downtown Women's Center",
-        "is-current": true,
-        "slug": "downtown-womens-center",
-        "description": "We had the privilege of celebrating the success of our annual Love Notes fundraiser by singing for the incredible women at the Downtown Women's Center.",
-        "images": 1,
-        "links":
-        [
+            },
             {
                 "text": "Learn more about the Downtown Women's Center",
                 "url": "https://downtownwomenscenter.org/"
@@ -28,11 +17,10 @@
         ]
     },
     {
-        "organization": "Ronald Reagan UCLA Medical Center with UCLA People-Animal Connection",
-        "is-current": true,
+        "organization": "UCLA Health × UCLA People-Animal Connection",
         "slug": "people-animal-connection",
-        "description": "We had the honor of caroling for the amazing patients and dedicated staff at Ronald Reagan UCLA Medical Center alongside UCLA People-Animal Connection's talented dogs and wonderful team. We sang some classic Christmas and Hanukkah carols for the December holidays and some of our Love Notes songs for Valentine's Day.",
-        "images": 3,
+        "description": "We have the honor of caroling for the amazing patients and dedicated staff at Ronald Reagan UCLA Medical Center and UCLA Santa Monica Medical Center alongside UCLA People-Animal Connection's talented dogs and wonderful team. We sing classic Christmas and Hanukkah carols for the December holidays and some of our Love Notes songs for Valentine's Day.",
+        "images": 4,
         "links":
         [
             {
@@ -47,9 +35,8 @@
     },
     {
         "organization": "Reading to Kids",
-        "is-current": true,
         "slug": "reading-to-kids",
-        "description": "For the March \"Music and Entertainment\"-themed reading club, we performed for the brilliant students at MacArthur Park Elementary School. We also expanded our volunteer experience beyond singing by reading to the students with the passionate volunteers at Reading to Kids.",
+        "description": "We enjoy reading to students at various elementary schools in Los Angeles with the passionate volunteers at Reading to Kids. For the March 2024 \"Music and Entertainment\"-themed reading club, we performed our setlist for the students at MacArthur Park Elementary School.",
         "images": 2,
         "links":
         [
@@ -60,10 +47,22 @@
         ]
     },
     {
-        "organization": "Habitat for Humanity with UCLA Bruin Belles Service Association",
-        "is-current": true,
+        "organization": "Downtown Women's Center",
+        "slug": "dwc",
+        "description": "We love singing for the incredible women at the Downtown Women's Center. In 2024, we had the privilege of caroling during the holiday season and celebrated the success of our annual Love Notes fundraiser by showcasing some of our love songs. In the past, we've visited and performed at the Downtown Women's Center for Mother's Day.",
+        "images": 4,
+        "links":
+        [
+            {
+                "text": "Learn more about the Downtown Women's Center",
+                "url": "https://downtownwomenscenter.org/"
+            }
+        ]
+    },
+    {
+        "organization": "Habitat for Humanity × UCLA Bruin Belles Service Association",
         "slug": "habitat-for-humanity",
-        "description": "We competed in UCLA Bruin Belles Service Association's first-ever charity dodgeball tournament—the BelleBall Tournament—and won! As the winners, we had the opportunity to donate $1,000 to a charity of our choice. We chose Habitat for Humanity as the charity to receive the donation.",
+        "description": "We competed in UCLA Bruin Belles Service Association's first-ever charity dodgeball tournament—the 2024 BelleBall Tournament—and won! As the winners, we had the opportunity to donate $1,000 to a charity of our choice. We chose Habitat for Humanity as the charity to receive the donation.",
         "images": 3,
         "links":
         [
@@ -79,7 +78,6 @@
     },
     {
         "organization": "Los Angeles Mission",
-        "is-current": true,
         "slug": "la-mission",
         "description": "Every winter, we host a clothing drive during our holiday concert and collect clothing donations for Los Angeles Mission.",
         "images": 3,
@@ -93,7 +91,6 @@
     },
     {
         "organization": "Los Angeles Unified School District",
-        "is-current": true,
         "slug": "lausd",
         "description": "Every spring, we organize a school supplies drive during our final concert and donate school supplies to the Los Angeles Unified School District's Homeless Education Office.",
         "images": 3,
@@ -107,9 +104,8 @@
     },
     {
         "organization": "UCLA Santa Monica Medical Center",
-        "is-current": true,
         "slug": "ucla-smmc",
-        "description": "We visited the pediatric unit at the UCLA Santa Monica Medical Center and had the honor of singing for the patients there as part of the Chase Child Life Program. We sang a mix of pop songs to help ease the stress of a hospital stay.",
+        "description": "In 2024, we visited the pediatric unit at the UCLA Santa Monica Medical Center and had the honor of singing for the patients there as part of the Chase Child Life Program. We sang a mix of pop songs to help ease the stress of a hospital stay.",
         "images": 0,
         "links":
         [
@@ -121,7 +117,6 @@
     },
     {
         "organization": "Pediatric AIDS Coalition",
-        "is-current": false,
         "slug": "pediatric-aids-coalition",
         "description": "We performed virtually for Dance Marathon at UCLA in 2020 to support the Pediatric AIDS Coalition's mission to fundraise for and raise awareness about the fight against AIDS in children.",
         "images": 2,
@@ -139,29 +134,14 @@
     },
     {
         "organization": "Providence Saint John's Health Center",
-        "is-current": false,
         "slug": "saint-johns",
-        "description": "We were honored to sing for the incredibly strong patients and hardworking staff at Providence Saint John's Health Center in Santa Monica.",
+        "description": "In 2019, we were honored to sing for the incredibly strong patients and hardworking staff at Providence Saint John's Health Center in Santa Monica.",
         "images": 3,
         "links":
         [
             {
                 "text": "Learn more about Saint John's Health Center Foundation",
                 "url": "https://saintjohnsfoundation.org/"
-            }
-        ]
-    },
-    {
-        "organization": "Mother's Day at the Downtown Women's Center",
-        "is-current": false,
-        "slug": "mothers-day",
-        "description": "For Mother's Day, we had the privilege of singing to the inspiring women at the Downtown Women's Center.",
-        "images": 2,
-        "links":
-        [
-            {
-                "text": "Learn more about the Downtown Women's Center",
-                "url": "https://downtownwomenscenter.org/"
             }
         ]
     }

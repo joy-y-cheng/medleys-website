@@ -19,7 +19,6 @@ root: ../
                 <h1 style="color: var(--medleys-blue); margin-bottom: 0;">Partnerships and Events</h1>
                 <div class="row row-sm-margin" data-masonry='{"percentPosition": true }'>
                     {%- for service in service-info-list-%}
-                    {%- if service.is-current -%}
                     <div class="col col-sm-margin col-xs-12 col-sm-6 col-lg-4">
                         <div class="card shadow">
                             <div class="card-header" style="background-color: var(--medleys-blue);">
@@ -62,60 +61,6 @@ root: ../
                             </div>
                         </div>
                     </div>
-                    {%- endif -%}
-                    {%- endfor -%}
-                </div>
-            </div>
-        </div>
-        <div class="content-wrap" style="background-color: var(--medleys-blue);">
-            <div class="container-md" style="text-align: left; color: white;">
-                <h1 style="color: var(--medleys-pink); margin-bottom: 0;">Past Events</h1>
-                <div class="row row-sm-margin" data-masonry='{"percentPosition": true }'>
-                    {%- for service in service-info-list-%}
-                    {%- if service.is-current == false -%}
-                    <div class="col col-sm-margin col-xs-12 col-sm-6 col-lg-4">
-                        <div class="card shadow">
-                            <div class="card-header" style="background-color: var(--medleys-pink);">
-                                <h3 style="color: var(--medleys-blue);">{{ service.organization }}</h3>
-                            </div>
-                            {%- if service.images > 1 -%}
-                            <div id="carousel-service-{{service.slug}}" class="carousel slide" style="margin: 0" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    {%- for i in (1..service.images) -%}
-                                    {%- if forloop.first -%}
-                                    <div class="carousel-item active">
-                                    {%- else -%}
-                                    <div class="carousel-item">
-                                    {%- endif -%}
-                                        <div class="col-img-container img-{{service.slug}}">
-                                            <img src="{{root}}assets/photos/service/{{service.slug}}-{{i}}.jpg" class="col-img" alt="{{service.name}}">
-                                        </div>
-                                    </div>
-                                    {%- endfor -%}
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-service-{{service.slug}}" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" style="margin: 20px;" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-service-{{service.slug}}" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" style="margin: 20px;" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                            {%- elsif service.images == 1 -%}
-                            <div class="col-img-container img-{{service.slug}}">
-                                <img src="{{root}}assets/photos/service/{{service.slug}}-1.jpg" class="col-img" alt="{{service.name}}">
-                            </div>
-                            {%- endif -%}
-                            <div class="card-body">
-                                <p>{{ service.description }}</p>
-                                {%- for link in service.links -%}
-                                <p><a href="{{link.url}}" target="_blank" class="gray-link">{{ link.text }}</a></p>
-                                {%- endfor -%}
-                            </div>
-                        </div>
-                    </div>
-                    {%- endif -%}
                     {%- endfor -%}
                 </div>
             </div>

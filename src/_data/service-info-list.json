@@ -49,7 +49,7 @@
     {
         "organization": "Downtown Women's Center",
         "slug": "dwc",
-        "description": "We love singing for the incredible women at the Downtown Women's Center. In 2024, we had the privilege of caroling during the holiday season and celebrated the success of our annual Love Notes fundraiser by showcasing some of our love songs. In the past, we've visited and performed at the Downtown Women's Center for Mother's Day.",
+        "description": "We love singing for the incredible women at the Downtown Women's Center. In 2024, we celebrated the success of our annual Love Notes fundraiser by showcasing some of our love songs and also had the privilege of caroling during the holiday season. In the past, we've visited and performed at the Downtown Women's Center for Mother's Day.",
         "images": 4,
         "links":
         [
@@ -99,6 +99,49 @@
             {
                 "text": "Learn more about the Homeless Education Office",
                 "url": "https://www.lausd.org/heo"
+            }
+        ]
+    },
+    {
+        "organization": "Assistance League of Los Angeles Family Day of Service",
+        "slug": "alla",
+        "description": "We joined Assistance League of Los Angeles in November 2024 for their Family Day of Service: \"Sweet Dreams and Cozy Nights\"! We made no-sew blankets for unhoused and foster youth in Los Angeles.",
+        "images": 3,
+        "links":
+        [
+            {
+                "text": "Learn more about Assistance League of Los Angeles",
+                "url": "https://assistanceleaguela.org/"
+            }
+        ]
+    },
+    {
+        "organization": "L.A. Cancer Challenge",
+        "slug": "lacc",
+        "description": "In October 2024, we had a great time helping at the 27th Annual 5K Walk/Run which supports the Hirshberg Foundation for Pancreatic Cancer Research.",
+        "images": 2,
+        "links":
+        [
+            {
+                "text": "Learn more about the L.A. Cancer Challenge",
+                "url": "http://lacancerchallenge.com/"
+            },
+            {
+                "text": "Learn more about the Hirshberg Foundation for Pancreatic Cancer Research",
+                "url": "https://pancreatic.org/"
+            }
+        ]
+    },
+    {
+        "organization": "Children's Hunger Fund",
+        "slug": "hunger-fund",
+        "description": "We had an awesome time volunteering at the Children's Hunger Fund for UCLA Volunteer Day in October 2024.",
+        "images": 2,
+        "links":
+        [
+            {
+                "text": "Learn more about the Children's Hunger Fund",
+                "url": "https://childrenshungerfund.org/"
             }
         ]
     },

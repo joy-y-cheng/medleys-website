@@ -525,12 +525,12 @@ a.nav-item.nav-link.active {
 }
 
 .red-btn {
-    color: white;
+    color: white !important;
     background-color: var(--love-notes-red) !important;
 }
 
 .pink-btn {
-    color: black;
+    color: black !important;
     background-color: var(--medleys-pink) !important;
 }
 

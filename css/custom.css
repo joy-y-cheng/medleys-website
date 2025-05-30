@@ -334,11 +334,17 @@ a.nav-item.nav-link.active {
 
 .jumbotron {
     padding: 0;
-    margin: 64px 0 0 0;
+    /* margin: 64px 0 0 0; */
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
     min-height: 50vw;
+}
+
+.banner {
+    margin: 64px 0 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .content-wrap {

@@ -334,7 +334,8 @@ a.nav-item.nav-link.active {
 
 .jumbotron {
     padding: 0;
-    /* margin: 64px 0 0 0; */
+    /* Keep the following line if no banner */
+    margin: 64px 0 0 0;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;

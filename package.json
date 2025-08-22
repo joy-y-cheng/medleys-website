@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "",
+    "test": "./test.sh",
     "prebuild": "rm -rf _site",
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve"
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "jsonschema": "^1.5.0"
   }
 }

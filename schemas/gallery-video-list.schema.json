@@ -1,0 +1,24 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Gallery Video List",
+    "type": "array",
+    "description": "List of YouTube videos to use for the gallery",
+    "items": {
+        "type": "object",
+        "properties": {
+            "youtube-id": {
+                "type": "string",
+                "description": "The ID associated with this YouTube video"
+            },
+            "title": {
+                "type": "string",
+                "description": "The title used to identify the video"
+            }
+        },
+        "required": [
+            "youtube-id",
+            "title"
+        ],
+        "additionalProperties": false
+    }
+}

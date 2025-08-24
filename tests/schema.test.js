@@ -3,8 +3,8 @@ const { Validator } = require("jsonschema");
 
 
 if (process.argv.length < 4) {
-    console.error("Usage: node validate.js <schema.json> <data.json>");
-    process.exit(1);
+    console.error("Usage: node tests/schema.test.js <schema.json> <data.json>");
+    process.exit(-1);
 }
 
 const schemaPath = process.argv[2];
@@ -16,14 +16,14 @@ try {
     schema = JSON.parse(fs.readFileSync(schemaPath, "utf-8"));
 } catch (err) {
     console.error("❌ Failed to read schema:", err.message);
-    process.exit(1);
+    process.exit(-2);
 }
 
 try {
     data = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
 } catch (err) {
     console.error("❌ Failed to read data:", err.message);
-    process.exit(1);
+    process.exit(-3);
 }
 
 const v = new Validator();
@@ -37,5 +37,5 @@ if (result.valid) {
     result.errors.forEach((err) => {
         console.error(`- ${err.stack}`);
     });
-    process.exit(1);
+    process.exit(result.errors.length);
 }

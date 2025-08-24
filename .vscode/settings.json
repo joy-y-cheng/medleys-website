@@ -1,0 +1,40 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "alum-info-list.json"
+            ],
+            "url": "./schemas/alum-info-list.schema.json"
+        },
+        {
+            "fileMatch": [
+                "faq-list.json"
+            ],
+            "url": "./schemas/faq-list.schema.json"
+        },
+        {
+            "fileMatch": [
+                "gallery-video-list.json"
+            ],
+            "url": "./schemas/gallery-video-list.schema.json"
+        },
+        {
+            "fileMatch": [
+                "member-info-list.json"
+            ],
+            "url": "./schemas/member-info-list.schema.json"
+        },
+        {
+            "fileMatch": [
+                "navigation.json"
+            ],
+            "url": "./schemas/navigation.schema.json"
+        },
+        {
+            "fileMatch": [
+                "service-info-list.json"
+            ],
+            "url": "./schemas/service-info-list.schema.json"
+        }
+    ]
+}

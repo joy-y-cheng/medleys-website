@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./test.sh",
+    "test": "./test",
     "prebuild": "rm -rf _site",
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve"

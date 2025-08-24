@@ -1,0 +1,26 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "FAQs",
+    "type": "array",
+    "description": "List of FAQs",
+    "items": {
+        "type": "object",
+        "properties": {
+            "question": {
+                "type": "string",
+                "pattern": "^[A-Z].*\\?$",
+                "description": "The question"
+            },
+            "answer": {
+                "type": "string",
+                "pattern": "^[A-Z].*[.!\"]$",
+                "description": "The answer"
+            }
+        },
+        "required": [
+            "question",
+            "answer"
+        ],
+        "additionalProperties": false
+    }
+}

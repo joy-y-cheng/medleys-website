@@ -1,0 +1,200 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Member Info List",
+    "type": "array",
+    "description": "Information about current Medleys members",
+    "items": {
+        "type": "object",
+        "properties": {
+            "section": {
+                "type": "string",
+                "enum": [
+                    "Sopranos",
+                    "Altos",
+                    "Tenors",
+                    "Basses"
+                ],
+                "description": "Which active vocal section (SATB)"
+            },
+            "is-light-color": {
+                "type": "boolean",
+                "description": "Whether or not to use the light (pink) or not (blue) as background"
+            },
+            "members": {
+                "type": "array",
+                "description": "The list of members",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "description": "Full/preferred name"
+                        },
+                        "year-joined": {
+                            "type": "string",
+                            "pattern": "^[0-9]{4}$",
+                            "description": "Four-digit year string"
+                        },
+                        "voice-part": {
+                            "type": "string",
+                            "pattern": "^([a-zA-Z, -])*$",
+                            "description": "Voice part sung, comma-separated for multiple"
+                        },
+                        "pronouns": {
+                            "type": "string",
+                            "description": "Preferred pronouns"
+                        },
+                        "slug": {
+                            "type": "string",
+                            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                            "description": "Slugified name, e.g., lowercased and delimited with hyphens, used to identify the picture"
+                        },
+                        "leadership": {
+                            "type": "string",
+                            "pattern": "^([a-zA-Z, ])*$",
+                            "description": "Current leadership positions, comma-separated for multiple"
+                        },
+                        "past-leadership": {
+                            "type": "string",
+                            "pattern": "^([a-zA-Z, ])*$",
+                            "description": "Past leadership positions, comma-separated for multiple"
+                        },
+                        "class": {
+                            "type": "string",
+                            "description": "Four-digit year string, possibly with additional metadata appended"
+                        },
+                        "major": {
+                            "type": "string",
+                            "description": "Major field of study, used when single major"
+                        },
+                        "majors": {
+                            "type": "string",
+                            "description": "Major fields of study, used when multiple majors"
+                        },
+                        "minor": {
+                            "type": "string",
+                            "description": "Minor field of study, used when single minor"
+                        },
+                        "minors": {
+                            "type": "string",
+                            "description": "Minor fields of study, used when multiple minors"
+                        },
+                        "hometown": {
+                            "type": "string",
+                            "description": "City/town, state/country"
+                        },
+                        "interests": {
+                            "type": "string",
+                            "description": "Interests"
+                        },
+                        "fun-fact": {
+                            "type": "string",
+                            "description": "A fun fact!"
+                        },
+                        "audition-song": {
+                            "type": "string",
+                            "pattern": "^\".*\" (\\(\".*\"\\) )?(by|from) ",
+                            "description": "What song they auditioned with artist"
+                        },
+                        "shower-song": {
+                            "type": "string",
+                            "description": "Their favorite song(s), optionally with artist"
+                        },
+                        "musical-artist": {
+                            "type": "string",
+                            "description": "Favorite musical artist"
+                        },
+                        "quote": {
+                            "type": "string",
+                            "pattern": "^\".*\"",
+                            "description": "Their favorite quote, probably from someone else"
+                        }
+                    },
+                    "required": [
+                        "name",
+                        "year-joined",
+                        "voice-part",
+                        "pronouns",
+                        "slug",
+                        "class",
+                        "hometown",
+                        "interests",
+                        "fun-fact",
+                        "audition-song",
+                        "shower-song",
+                        "musical-artist"
+                    ],
+                    "allOf": [
+                        {
+                            "oneOf": [
+                                {
+                                    "required": [
+                                        "major"
+                                    ]
+                                },
+                                {
+                                    "required": [
+                                        "majors"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "not": {
+                                "allOf": [
+                                    {
+                                        "required": [
+                                            "minor"
+                                        ]
+                                    },
+                                    {
+                                        "required": [
+                                            "minors"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "if": {
+                                "anyOf": [
+                                    {
+                                        "required": [
+                                            "minor"
+                                        ]
+                                    },
+                                    {
+                                        "required": [
+                                            "minors"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "then": {
+                                "anyOf": [
+                                    {
+                                        "required": [
+                                            "major"
+                                        ]
+                                    },
+                                    {
+                                        "required": [
+                                            "majors"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "additionalProperties": false
+                }
+            }
+        },
+        "required": [
+            "section",
+            "is-light-color",
+            "members"
+        ],
+        "additionalProperties": false
+    }
+}

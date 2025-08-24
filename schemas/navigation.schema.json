@@ -1,0 +1,24 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Navigation Slugs",
+    "type": "array",
+    "description": "List of slugs used in the navigation bar menu",
+    "items": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The slug used as a relative link"
+            },
+            "title": {
+                "type": "string",
+                "description": "The label used for the navigation bar menu item"
+            }
+        },
+        "required": [
+            "slug",
+            "title"
+        ],
+        "additionalProperties": false
+    }
+}

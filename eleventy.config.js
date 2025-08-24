@@ -1,5 +1,6 @@
 module.exports = (function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/CNAME");
+    eleventyConfig.addPassthroughCopy("src/robots.txt");
 
     return {
         dir: {

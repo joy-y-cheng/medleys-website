@@ -714,9 +714,21 @@ ol li::before {
     color: var(--medleys-pink);
 }
 
+.dark-modal-heading-small {
+    margin-bottom: 0;
+    color: var(--medleys-pink);
+    font-size: 20px;
+}
+
 .light-modal-heading {
     margin-bottom: 0;
     color: var(--medleys-blue);
+}
+
+.light-modal-heading-small {
+    margin-bottom: 0;
+    color: var(--medleys-blue);
+    font-size: 20px;
 }
 
 .close {

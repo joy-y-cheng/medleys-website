@@ -15,7 +15,7 @@
     --love-notes-red: #c13245;
     --love-notes-red-darker: #a92334;
     --shadow-color: #00000026;
-    --transparent-black: #00000080;
+    --transparent-black: #00000099;
 }
 
 body {
@@ -298,7 +298,7 @@ a.nav-item.nav-link.active {
     height: 20px;
     margin-top: 12px;
     margin-bottom: 12px;
-    opacity: 0.5;
+    opacity: 0.6;
     transition: all .15s ease-in-out;
     font-size: 1rem;
     align-items: center;
@@ -318,7 +318,7 @@ a.nav-item.nav-link.active {
 }
 
 .icon-link {
-    opacity: 0.5;
+    opacity: 0.6;
     transition: all .15s ease-in-out;
     height: 2em;
     margin-left: 20px;

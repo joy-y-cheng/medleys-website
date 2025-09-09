@@ -307,7 +307,6 @@ a.nav-item.nav-link.active {
     line-height: 1.5;
 }
 
-
 .navbar-toggler:hover {
     opacity: 1;
 }
@@ -550,6 +549,13 @@ a.nav-item.nav-link.active {
 .pink-btn:hover, .pink-btn:focus {
     color: black !important;
     background-color: var(--medleys-pink-darker) !important;
+}
+
+.more-btn {
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;
+    border-bottom: 1px solid;
 }
 
 .form-control {

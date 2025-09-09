@@ -31,9 +31,9 @@ root: ../
                         {%- endif -%}
                         <p class="caption">
                             {%- if member-info.is-light-color -%}
-                            <span class="dark-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</span>
+                            <button class="more-btn dark-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</button>
                             {%- else -%}
-                            <span class="light-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</span>
+                            <button class="more-btn light-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</button>
                             {%- endif -%}
                         </p>
                         {%- if member-info.is-light-color -%}
@@ -234,7 +234,7 @@ root: ../
                         {%- endif -%}
                         {% if member.slug -%}
                         <p class="caption">
-                            <span class="dark-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</span>
+                            <button class="more-btn dark-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</button>
                         </p>
                         <div class="modal modal-lg fade" id="modal-member-{{member.slug}}" tabindex="-1" role="dialog" style="text-align: left; color: white;" aria-labelledby="modal-label" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">

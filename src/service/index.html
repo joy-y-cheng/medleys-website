@@ -37,7 +37,7 @@ root: ../
                                     <div class="carousel-item">
                                     {%- endif -%}
                                         <div class="col-img-container img-{{service.slug}}">
-                                            <img src="{{root}}assets/photos/service/{{service.slug}}-{{i}}.jpg" class="col-img" alt="{{service.name}}">
+                                            <img src="{{root}}assets/photos/service/{{service.slug}}-{{i}}.jpg" class="col-img" alt="{{service.name}}" sizes="(min-width: 768px) 480px, 100vw">
                                         </div>
                                     </div>
                                     {%- endfor -%}

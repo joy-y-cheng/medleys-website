@@ -26,7 +26,7 @@ root: ../
                     {%- for member in members_by_name -%}
                     <section class="col col-sm-margin">
                         <div class="portrait-container">
-                            <img src="{{root}}assets/photos/members/{{member.slug}}.jpg" class="portrait portrait-{{member.slug}} shadow" alt="{{member.name | escape}}">
+                            <img src="{{root}}assets/photos/members/{{member.slug}}.jpg" class="portrait portrait-{{member.slug}} shadow" alt="{{member.name | escape}}" sizes="(min-width: 1024px) 320px, (min-width: 768px) 480px, 100vw">
                         </div>
                         <p class="lead caption-heading">{{ member.name }}</p>
                         {%- if member.leadership -%}

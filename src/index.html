@@ -10,7 +10,7 @@ title: Home
                 <video autoplay muted playsinline class="display-title title-logo" id="video-logo">
                     <source src="{{root}}assets/logo-animation-cropped.webm" type="video/webm">
                 </video>
-                <img src="{{root}}assets/logo-animation-cropped.jpg" class="display-title title-logo" alt="Medleys logo" id="image-logo" style="display: none;">
+                <img eleventy:ignore src="{{root}}assets/logo-animation-cropped.jpg" class="display-title title-logo" alt="Medleys logo" id="image-logo" style="display: none;">
             </div>
         </div>
         <div class="content-wrap" style="background-color: var(--medleys-blue);">
@@ -23,7 +23,7 @@ title: Home
                     </section>
                     <section class="col col-lg-margin">
                         <div class="col-img-container">
-                            <img src="{{root}}assets/photos/who-we-are.jpg" class="col-img shadow" alt="Group photo of Medleys">
+                            <img src="{{root}}assets/photos/who-we-are.jpg" class="col-img shadow" alt="Group photo of Medleys" sizes="(min-width: 768px) 550px, 100vw">
                         </div>
                     </section>
                 </div>
@@ -34,7 +34,7 @@ title: Home
                 <div class="row row-lg-margin row-cols-1 row-cols-lg-2 justify-content-left">
                     <section class="col col-lg-margin order-2 order-lg-1">
                         <div class="col-img-container">
-                            <img src="{{root}}assets/photos/what-we-do.jpg" class="col-img shadow" alt="Medleys caroling with People-Animal Connection">
+                            <img src="{{root}}assets/photos/what-we-do.jpg" class="col-img shadow" alt="Medleys caroling with People-Animal Connection" sizes="(min-width: 768px) 550px, 100vw">
                         </div>
                     </section>
                     <section class="col col-lg-margin order-1 order-lg-2" style="text-align: left;">

@@ -39,7 +39,7 @@
                     aria-controls="togglerNav"
                     aria-expanded="false" aria-label="Toggle navigation">
                     Menu 
-                    <img src="{{root}}assets/music-note-list.svg" alt="Music-themed menu" style="height: 1em; margin-left: 5px;">
+                    <img eleventy:ignore src="{{root}}assets/music-note-list.svg" alt="Music-themed menu" style="height: 1em; width: auto; margin-left: 5px;">
                 </button>
                 <div class="collapse navbar-collapse" id="togglerNav">
                     <div class="navbar-nav">
@@ -59,19 +59,19 @@
         <footer class="footer">
             <div class="container-md" style="text-align: center;">
                 <p>Follow us on social media!</p>
-                <a href="https://www.youtube.com/channel/UCx0vT8btgxHZ2LJuhMA686g" target="_blank" class="icon-link"><img src="{{root}}assets/youtube.svg" alt="YouTube" style="height: 2em;"></a>
-                <a href="https://www.instagram.com/medleysacappella/" target="_blank" class="icon-link"><img src="{{root}}assets/instagram.svg" alt="Instagram" style="height: 2em;"></a>
-                <a href="https://www.facebook.com/medleysacappella/" target="_blank" class="icon-link"><img src="{{root}}assets/facebook.svg" alt="Facebook" style="height: 2em;"></a>
+                <a href="https://www.youtube.com/channel/UCx0vT8btgxHZ2LJuhMA686g" target="_blank" class="icon-link"><img eleventy:ignore src="{{root}}assets/youtube.svg" alt="YouTube" width="16px" height="16px" style="height: 2em; width: auto;"></a>
+                <a href="https://www.instagram.com/medleysacappella/" target="_blank" class="icon-link"><img eleventy:ignore src="{{root}}assets/instagram.svg" alt="Instagram" style="height: 2em; width: auto;"></a>
+                <a href="https://www.facebook.com/medleysacappella/" target="_blank" class="icon-link"><img eleventy:ignore src="{{root}}assets/facebook.svg" alt="Facebook" style="height: 2em; width: auto;"></a>
                 <p>&copy; 2024–2025 Medleys A Cappella</p>
                 <p>
                     Designed with
-                    <img src="{{root}}assets/heart-fill.svg" alt="Heart" style="height: 1em;">
+                    <img eleventy:ignore src="{{root}}assets/heart-fill.svg" alt="Heart" style="height: 1em; width: auto;">
                     by Joy Cheng
                 </p>
-                <picture>
+                <picture eleventy:ignore>
                     <source media="(min-width: 992px)" srcset="{{root}}assets/footer-banner-large.png" style="width: 100%;">
                     <source media="(min-width: 576px)" srcset="{{root}}assets/footer-banner-medium.png" style="width: 100%;">
-                    <img src="{{root}}assets/footer-banner-small.png" alt="Medleys footer collage" style="width: 100%;">
+                    <img eleventy:ignore src="{{root}}assets/footer-banner-small.png" alt="Medleys footer collage" style="width: 100%;">
                 </picture>
             </div>
         </footer>

@@ -3,8 +3,11 @@ layout: _layout.html
 title: Service
 root: ../
 ---
-        <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('{{root}}assets/photos/service.jpg'); background-position: 50% 40%;">
-            <div class="container">
+        <div class="jumbotron-fluid position-relative">
+            <img src="{{root}}assets/photos/service.jpg" alt="Service" decoding="async" loading="eager" fetchpriority="high" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover; object-position: 50% 40%;" />
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
+            </div>
+            <div class="jumbotron position-relative">
                 <h1 class="display-title">Service</h1>
             </div>
         </div>

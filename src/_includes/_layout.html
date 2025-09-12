@@ -13,6 +13,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Website for Medleys A Cappella at UCLA.">
         <link rel="icon" href="{{root}}assets/favicon.png" type="image/x-icon">
+        {%- for item in navigation -%}
+        {%- if item.title == "Home" -%}
+        {%- assign hero-image-slug = "home" -%}
+        {%- else -%}
+        {%- assign hero-image-slug = item.slug -%}
+        {%- endif -%}
+        {%- if item.title == title -%}
+        <link rel="preload" href="{{root}}/assets/photos/{{hero-image-slug}}.jpg" as="image" type="image/jpeg">
+        {%- else -%}
+        <link rel="prefetch" href="{{root}}/assets/photos/{{hero-image-slug}}.jpg" as="image" type="image/jpeg">
+        {%- endif -%}
+        {%- endfor -%}
         {%- if title == "Home" -%}
         <title>Medleys A Cappella</title>
         {%- else -%}

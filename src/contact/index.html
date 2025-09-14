@@ -3,8 +3,11 @@ layout: _layout.html
 title: Contact
 root: ../
 ---
-        <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('{{root}}assets/photos/contact.jpg'); background-position: 50% 60%;">
-            <div class="container">
+        <div class="jumbotron-fluid position-relative">
+            <img src="{{root}}assets/photos/contact.jpg" alt="Contact" decoding="async" loading="eager" fetchpriority="high" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover; object-position: 50% 60%;" />
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
+            </div>
+            <div class="jumbotron position-relative">
                 <h1 class="display-title">Contact</h1>
             </div>
         </div>
@@ -18,7 +21,7 @@ root: ../
                         <a class="pink-btn btn" href="mailto:medleys@g.ucla.edu" role="button" target="_blank" style="margin: 0px;">
                             <p class="lead" style="margin: 0px">
                                 Send us a message
-                                <img src="{{root}}assets/send-fill.svg" alt="Send" style="height: 1em;">
+                                <img eleventy:ignore src="{{root}}assets/send-fill.svg" alt="Send" style="height: 1em; width: auto;">
                                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
                                     <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
                                 </svg> -->
@@ -27,7 +30,7 @@ root: ../
                     </section>
                     <section class="col col-lg-margin">
                         <div class="col-img-container">
-                            <img src="{{root}}assets/photos/royce.jpg" class="col-img shadow" alt="Group photo of Medleys">
+                            <img src="{{root}}assets/photos/royce.jpg" class="col-img shadow" alt="Group photo of Medleys" sizes="(min-width: 768px) 550px, 100vw">
                         </div>
                     </section>
                 </div>

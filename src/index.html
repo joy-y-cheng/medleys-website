@@ -2,11 +2,16 @@
 layout: _layout.html
 title: Home
 ---
-        <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('{{root}}assets/photos/home.jpg'); background-position: 50% 70%;">
-            <video autoplay muted playsinline class="display-title title-logo" id="video-logo">
-                <source src="{{root}}assets/logo-animation-cropped.webm" type="video/webm">
-            </video>
-            <img src="{{root}}assets/logo-animation-cropped.jpg" class="display-title title-logo" alt="Medleys logo" id="image-logo" style="display: none;">
+        <div class="jumbotron-fluid position-relative">
+            <img src="{{root}}assets/photos/home.jpg" alt="Home" decoding="async" loading="eager" fetchpriority="high" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover; object-position: 50% 70%;" />
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
+            </div>
+            <div class="jumbotron">
+                <video autoplay muted playsinline class="display-title title-logo" id="video-logo">
+                    <source src="{{root}}assets/logo-animation-cropped.webm" type="video/webm">
+                </video>
+                <img eleventy:ignore src="{{root}}assets/logo-animation-cropped.jpg" class="display-title title-logo" alt="Medleys logo" id="image-logo" style="display: none;">
+            </div>
         </div>
         <div class="content-wrap" style="background-color: var(--medleys-blue);">
             <div class="container-md" style="text-align: left; color: white;">
@@ -18,7 +23,7 @@ title: Home
                     </section>
                     <section class="col col-lg-margin">
                         <div class="col-img-container">
-                            <img src="{{root}}assets/photos/who-we-are.jpg" class="col-img shadow" alt="Group photo of Medleys">
+                            <img src="{{root}}assets/photos/who-we-are.jpg" class="col-img shadow" alt="Group photo of Medleys" sizes="(min-width: 768px) 550px, 100vw">
                         </div>
                     </section>
                 </div>
@@ -29,7 +34,7 @@ title: Home
                 <div class="row row-lg-margin row-cols-1 row-cols-lg-2 justify-content-left">
                     <section class="col col-lg-margin order-2 order-lg-1">
                         <div class="col-img-container">
-                            <img src="{{root}}assets/photos/what-we-do.jpg" class="col-img shadow" alt="Medleys caroling with People-Animal Connection">
+                            <img src="{{root}}assets/photos/what-we-do.jpg" class="col-img shadow" alt="Medleys caroling with People-Animal Connection" sizes="(min-width: 768px) 550px, 100vw">
                         </div>
                     </section>
                     <section class="col col-lg-margin order-1 order-lg-2" style="text-align: left;">
@@ -40,3 +45,4 @@ title: Home
                 </div>
             </div>
         </div>
+        <script src="{{root}}js/index.js"></script>

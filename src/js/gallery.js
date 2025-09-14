@@ -1,5 +1,4 @@
 const carouselDiv = document.getElementById("carousel-performances");
-// var carouselBootstrap = bootstrap.Carousel.getOrCreateInstance(carouselDiv);
 
 // This is the index of the active player.
 var carouselActiveIndex = 0;
@@ -26,13 +25,3 @@ function onYouTubeIframeAPIReady() {
             carouselActiveIndex -= carouselPlayers.length;
     });
 }
-
-// Display image logo when video logo is done playing
-var imageLogo = document.getElementById('image-logo');
-var videoLogo = document.getElementById('video-logo');
-videoLogo.addEventListener('ended', function() {
-    imageLogo.style.display = 'inline';
-    setTimeout(function() {
-        videoLogo.style.display = 'none';
-    }, 100);
-}, false);

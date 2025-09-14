@@ -3,8 +3,11 @@ layout: _layout.html
 title: Service
 root: ../
 ---
-        <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('{{root}}assets/photos/service.jpg'); background-position: 50% 40%;">
-            <div class="container">
+        <div class="jumbotron-fluid position-relative">
+            <img src="{{root}}assets/photos/service.jpg" alt="Service" decoding="async" loading="eager" fetchpriority="high" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover; object-position: 50% 40%;" />
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
+            </div>
+            <div class="jumbotron position-relative">
                 <h1 class="display-title">Service</h1>
             </div>
         </div>
@@ -22,7 +25,7 @@ root: ../
                     <div class="col col-sm-margin col-xs-12 col-sm-6 col-lg-4">
                         <div class="card shadow">
                             <div class="card-header" style="background-color: var(--medleys-blue);">
-                                <h3 style="color: var(--medleys-pink);">{{ service.organization }}</h3>
+                                <h2 style="color: var(--medleys-pink); font-size: 24px;">{{ service.organization }}</h2>
                             </div>
                             {%- if service.images > 1 -%}
                             <div id="carousel-service-{{service.slug}}" class="carousel slide" style="margin: 0" data-bs-ride="carousel">
@@ -34,7 +37,7 @@ root: ../
                                     <div class="carousel-item">
                                     {%- endif -%}
                                         <div class="col-img-container img-{{service.slug}}">
-                                            <img src="{{root}}assets/photos/service/{{service.slug}}-{{i}}.jpg" class="col-img" alt="{{service.name}}">
+                                            <img src="{{root}}assets/photos/service/{{service.slug}}-{{i}}.jpg" class="col-img" alt="{{service.name}}" sizes="(min-width: 768px) 480px, 100vw">
                                         </div>
                                     </div>
                                     {%- endfor -%}

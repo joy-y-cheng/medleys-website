@@ -7,12 +7,14 @@
     "test": "",
     "prebuild": "rm -rf _site",
     "build": "npx @11ty/eleventy",
+    "postbuild": "./postbuild",
     "start": "npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4"
   }
 }

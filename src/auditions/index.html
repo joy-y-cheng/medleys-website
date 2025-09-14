@@ -3,8 +3,11 @@ layout: _layout.html
 title: Auditions
 root: ../
 ---
-        <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('{{root}}assets/photos/auditions.jpg'); background-position: 50% 45%;">
-            <div class="container">
+        <div class="jumbotron-fluid position-relative">
+            <img src="{{root}}assets/photos/auditions.jpg" alt="Auditions" decoding="async" loading="eager" fetchpriority="high" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover; object-position: 50% 45%;" />
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
+            </div>
+            <div class="jumbotron position-relative">
                 <h1 class="display-title">Auditions</h1>
             </div>
         </div>
@@ -16,7 +19,7 @@ root: ../
                 <a class="pink-btn btn" href="https://www.signupgenius.com/go/10C0848ABAD2CABF5C43-58586958-medleys" role="button" target="_blank" style="margin-top: 0px;">
                     <p class="lead" style="margin: 0px">
                         Sign up to audition
-                        <img src="{{root}}assets/pencil-fill.svg" alt="Pencil" style="height: 1em;">
+                        <img eleventy:ignore src="{{root}}assets/pencil-fill.svg" alt="Pencil" style="height: 1em; width: auto;">
                     </p>
                 </a>
             </div>

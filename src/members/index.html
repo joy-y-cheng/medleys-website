@@ -3,8 +3,11 @@ layout: _layout.html
 title: Members
 root: ../
 ---
-        <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('{{root}}assets/photos/members.jpg'); background-position: 50% 90%;">
-            <div class="container">
+        <div class="jumbotron-fluid position-relative">
+            <img src="{{root}}assets/photos/members.jpg" alt="Members" decoding="async" loading="eager" fetchpriority="high" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover; object-position: 50% 90%;" />
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
+            </div>
+            <div class="jumbotron position-relative">
                 <h1 class="display-title">Members</h1>
             </div>
         </div>
@@ -23,7 +26,7 @@ root: ../
                     {%- for member in members_by_name -%}
                     <section class="col col-sm-margin">
                         <div class="portrait-container">
-                            <img src="{{root}}assets/photos/members/{{member.slug}}.jpg" class="portrait portrait-{{member.slug}} shadow" alt="{{member.name | escape}}">
+                            <img src="{{root}}assets/photos/members/{{member.slug}}.jpg" class="portrait portrait-{{member.slug}} shadow" alt="{{member.name | escape}}" sizes="(min-width: 1024px) 320px, (min-width: 768px) 480px, 100vw">
                         </div>
                         <p class="lead caption-heading">{{ member.name }}</p>
                         {%- if member.leadership -%}
@@ -31,9 +34,9 @@ root: ../
                         {%- endif -%}
                         <p class="caption">
                             {%- if member-info.is-light-color -%}
-                            <a class="dark-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</a>
+                            <button class="more-btn dark-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</button>
                             {%- else -%}
-                            <a class="light-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</a>
+                            <button class="more-btn light-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</button>
                             {%- endif -%}
                         </p>
                         {%- if member-info.is-light-color -%}
@@ -84,38 +87,38 @@ root: ../
                                                 </div>
                                             </div>
                                             <div class="col col-lg-margin text-start">
-                                                <h4 class="dark-modal-heading" style="margin-top: 0;">Class</h3>
+                                                <h3 class="dark-modal-heading-small" style="margin-top: 0;">Class</h3>
                                                 <p class="caption">{{ member.class }}</p>
                                                 {%- if member.major -%}
-                                                <h4 class="dark-modal-heading">Major</h3>
+                                                <h3 class="dark-modal-heading-small">Major</h3>
                                                 <p class="caption">{{ member.major }}</p>
                                                 {%- endif -%}
                                                 {%- if member.majors -%}
-                                                <h4 class="dark-modal-heading">Majors</h3>
+                                                <h3 class="dark-modal-heading-small">Majors</h3>
                                                 <p class="caption">{{ member.majors }}</p>
                                                 {%- endif -%}
                                                 {%- if member.minor -%}
-                                                <h4 class="dark-modal-heading">Minor</h3>
+                                                <h3 class="dark-modal-heading-small">Minor</h3>
                                                 <p class="caption">{{ member.minor }}</p>
                                                 {%- endif -%}
                                                 {%- if member.minors -%}
-                                                <h4 class="dark-modal-heading">Minors</h3>
+                                                <h3 class="dark-modal-heading-small">Minors</h3>
                                                 <p class="caption">{{ member.minors }}</p>
                                                 {%- endif -%}
-                                                <h4 class="dark-modal-heading">Hometown</h3>
+                                                <h3 class="dark-modal-heading-small">Hometown</h3>
                                                 <p class="caption">{{ member.hometown }}</p>
-                                                <h4 class="dark-modal-heading">Interests/Hobbies</h3>
+                                                <h3 class="dark-modal-heading-small">Interests/Hobbies</h3>
                                                 <p class="caption">{{ member.interests }}</p>
-                                                <h4 class="dark-modal-heading">Fun Fact</h3>
+                                                <h3 class="dark-modal-heading-small">Fun Fact</h3>
                                                 <p class="caption">{{ member.fun-fact }}</p>
-                                                <h4 class="dark-modal-heading">Audition Song</h3>
+                                                <h3 class="dark-modal-heading-small">Audition Song</h3>
                                                 <p class="caption">{{ member.audition-song }}</p>
-                                                <h4 class="dark-modal-heading">Go-To Shower Song</h3>
+                                                <h3 class="dark-modal-heading-small">Go-To Shower Song</h3>
                                                 <p class="caption">{{ member.shower-song }}</p>
-                                                <h4 class="dark-modal-heading">Favorite Musical Artist</h3>
+                                                <h3 class="dark-modal-heading-small">Favorite Musical Artist</h3>
                                                 <p class="caption">{{ member.musical-artist }}</p>
                                                 {%- if member.quote -%}
-                                                <h4 class="dark-modal-heading">Favorite Quote</h3>
+                                                <h3 class="dark-modal-heading-small">Favorite Quote</h3>
                                                 <p class="caption">{{ member.quote }}</p>
                                                 {%- endif -%}
                                             </div>
@@ -172,38 +175,38 @@ root: ../
                                                 </div>
                                             </div>
                                             <div class="col col-lg-margin text-start">
-                                                <h4 class="light-modal-heading" style="margin-top: 0;">Class</h3>
+                                                <h3 class="light-modal-heading-small" style="margin-top: 0;">Class</h3>
                                                 <p class="caption">{{ member.class }}</p>
                                                 {%- if member.major -%}
-                                                <h4 class="light-modal-heading">Major</h3>
+                                                <h3 class="light-modal-heading-small">Major</h3>
                                                 <p class="caption">{{ member.major }}</p>
                                                 {%- endif -%}
                                                 {%- if member.majors -%}
-                                                <h4 class="light-modal-heading">Majors</h3>
+                                                <h3 class="light-modal-heading-small">Majors</h3>
                                                 <p class="caption">{{ member.majors }}</p>
                                                 {%- endif -%}
                                                 {%- if member.minor -%}
-                                                <h4 class="light-modal-heading">Minor</h3>
+                                                <h3 class="light-modal-heading-small">Minor</h3>
                                                 <p class="caption">{{ member.minor }}</p>
                                                 {%- endif -%}
                                                 {%- if member.minors -%}
-                                                <h4 class="light-modal-heading">Minors</h3>
+                                                <h3 class="light-modal-heading-small">Minors</h3>
                                                 <p class="caption">{{ member.minors }}</p>
                                                 {%- endif -%}
-                                                <h4 class="light-modal-heading">Hometown</h3>
+                                                <h3 class="light-modal-heading-small">Hometown</h3>
                                                 <p class="caption">{{ member.hometown }}</p>
-                                                <h4 class="light-modal-heading">Interests/Hobbies</h3>
+                                                <h3 class="light-modal-heading-small">Interests/Hobbies</h3>
                                                 <p class="caption">{{ member.interests }}</p>
-                                                <h4 class="light-modal-heading">Fun Fact</h3>
+                                                <h3 class="light-modal-heading-small">Fun Fact</h3>
                                                 <p class="caption">{{ member.fun-fact }}</p>
-                                                <h4 class="light-modal-heading">Audition Song</h3>
+                                                <h3 class="light-modal-heading-small">Audition Song</h3>
                                                 <p class="caption">{{ member.audition-song }}</p>
-                                                <h4 class="light-modal-heading">Go-To Shower Song</h3>
+                                                <h3 class="light-modal-heading-small">Go-To Shower Song</h3>
                                                 <p class="caption">{{ member.shower-song }}</p>
-                                                <h4 class="light-modal-heading">Favorite Musical Artist</h3>
+                                                <h3 class="light-modal-heading-small">Favorite Musical Artist</h3>
                                                 <p class="caption">{{ member.musical-artist }}</p>
                                                 {%- if member.quote -%}
-                                                <h4 class="light-modal-heading">Favorite Quote</h3>
+                                                <h3 class="light-modal-heading-small">Favorite Quote</h3>
                                                 <p class="caption">{{ member.quote }}</p>
                                                 {%- endif -%}
                                             </div>
@@ -234,7 +237,7 @@ root: ../
                         {%- endif -%}
                         {% if member.slug -%}
                         <p class="caption">
-                            <a class="dark-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</a>
+                            <button class="more-btn dark-link" data-bs-toggle="modal" data-bs-target="#modal-member-{{member.slug}}">More</button>
                         </p>
                         <div class="modal modal-lg fade" id="modal-member-{{member.slug}}" tabindex="-1" role="dialog" style="text-align: left; color: white;" aria-labelledby="modal-label" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
@@ -283,38 +286,38 @@ root: ../
                                                 </div>
                                             </div>
                                             <div class="col col-lg-margin text-start">
-                                                <h4 class="dark-modal-heading" style="margin-top: 0;">Class</h3>
+                                                <h3 class="dark-modal-heading-small" style="margin-top: 0;">Class</h3>
                                                 <p class="caption">{{ member.class }}</p>
                                                 {%- if member.major -%}
-                                                <h4 class="dark-modal-heading">Major</h3>
+                                                <h3 class="dark-modal-heading-small">Major</h3>
                                                 <p class="caption">{{ member.major }}</p>
                                                 {%- endif -%}
                                                 {%- if member.majors -%}
-                                                <h4 class="dark-modal-heading">Majors</h3>
+                                                <h3 class="dark-modal-heading-small">Majors</h3>
                                                 <p class="caption">{{ member.majors }}</p>
                                                 {%- endif -%}
                                                 {%- if member.minor -%}
-                                                <h4 class="dark-modal-heading">Minor</h3>
+                                                <h3 class="dark-modal-heading-small">Minor</h3>
                                                 <p class="caption">{{ member.minor }}</p>
                                                 {%- endif -%}
                                                 {%- if member.minors -%}
-                                                <h4 class="dark-modal-heading">Minors</h3>
+                                                <h3 class="dark-modal-heading-small">Minors</h3>
                                                 <p class="caption">{{ member.minors }}</p>
                                                 {%- endif -%}
-                                                <h4 class="dark-modal-heading">Hometown</h3>
+                                                <h3 class="dark-modal-heading-small">Hometown</h3>
                                                 <p class="caption">{{ member.hometown }}</p>
-                                                <h4 class="dark-modal-heading">Interests/Hobbies</h3>
+                                                <h3 class="dark-modal-heading-small">Interests/Hobbies</h3>
                                                 <p class="caption">{{ member.interests }}</p>
-                                                <h4 class="dark-modal-heading">Fun Fact</h3>
+                                                <h3 class="dark-modal-heading-small">Fun Fact</h3>
                                                 <p class="caption">{{ member.fun-fact }}</p>
-                                                <h4 class="dark-modal-heading">Audition Song</h3>
+                                                <h3 class="dark-modal-heading-small">Audition Song</h3>
                                                 <p class="caption">{{ member.audition-song }}</p>
-                                                <h4 class="dark-modal-heading">Go-To Shower Song</h3>
+                                                <h3 class="dark-modal-heading-small">Go-To Shower Song</h3>
                                                 <p class="caption">{{ member.shower-song }}</p>
-                                                <h4 class="dark-modal-heading">Favorite Musical Artist</h3>
+                                                <h3 class="dark-modal-heading-small">Favorite Musical Artist</h3>
                                                 <p class="caption">{{ member.musical-artist }}</p>
                                                 {%- if member.quote -%}
-                                                <h4 class="dark-modal-heading">Favorite Quote</h3>
+                                                <h3 class="dark-modal-heading-small">Favorite Quote</h3>
                                                 <p class="caption">{{ member.quote }}</p>
                                                 {%- endif -%}
                                             </div>

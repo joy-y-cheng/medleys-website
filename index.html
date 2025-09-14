@@ -4,20 +4,21 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
         <link href="css/photos.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+        <link rel="preload" href="assets/fonts/luckybones/luckybones-bold-webfont.woff2" as="font" type="font/woff2" crossorigin="">
+        <link rel="preload" href="assets/fonts/poppins/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2" as="font" type="font/woff2" crossorigin="">
+        <link rel="preload" href="assets/fonts/poppins/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2" as="font" type="font/woff2" crossorigin="">
+        <link rel="preload" href="assets/fonts/poppins/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2" as="font" type="font/woff2" crossorigin="">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="assets/favicon.png" type="image/x-icon"><title>Medleys A Cappella</title></head>
+        <meta name="description" content="Website for Medleys A Cappella at UCLA.">
+        <link rel="icon" href="assets/favicon.png" type="image/png"><link rel="preload" href="/assets/photos/home.jpg" as="image" type="image/jpeg"><link rel="prefetch" href="/assets/photos/members.jpg" as="image" type="image/jpeg"><link rel="prefetch" href="/assets/photos/auditions.jpg" as="image" type="image/jpeg"><link rel="prefetch" href="/assets/photos/love-notes.jpg" as="image" type="image/jpeg"><link rel="prefetch" href="/assets/photos/service.jpg" as="image" type="image/jpeg"><link rel="prefetch" href="/assets/photos/gallery.jpg" as="image" type="image/jpeg"><link rel="prefetch" href="/assets/photos/contact.jpg" as="image" type="image/jpeg"><title>Medleys A Cappella</title></head>
     <body>
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-md">
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#togglerNav"
-                    aria-controls="togglerNav"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#togglerNav" aria-controls="togglerNav" aria-expanded="false" aria-label="Toggle navigation">
                     Menu 
-                    <img src="assets/music-note-list.svg" alt="Menu" style="height: 1em; margin-left: 5px;">
+                    <img src="assets/music-note-list.svg" alt="Music-themed menu" style="height: 1em; width: auto; margin-left: 5px;">
                 </button>
                 <div class="collapse navbar-collapse" id="togglerNav">
                     <div class="navbar-nav"><a class="nav-item nav-link active" href="">Home</a><a class="nav-item nav-link " href="members">Members</a><a class="nav-item nav-link " href="auditions">Auditions</a><a class="nav-item nav-link " href="love-notes">Love Notes</a><a class="nav-item nav-link " href="service">Service</a><a class="nav-item nav-link " href="gallery">Gallery</a><a class="nav-item nav-link " href="contact">Contact</a></div>
@@ -29,11 +30,16 @@
                 <p style="margin: 0; text-align: center;">Check out our 2025 Final Concert livestream <a href="https://www.youtube.com/watch?v=Tkf_UBDPHT8" target="_blank" class="dark-link">here</a>!</p>
             </div>
         </div> -->
-        <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('assets/photos/home.jpg'); background-position: 50% 70%;">
-            <video autoplay muted playsinline class="display-title title-logo" id="video-logo">
-                <source src="assets/logo-animation-cropped.webm" type="video/webm">
-            </video>
-            <img src="assets/logo-animation-cropped.jpg" class="display-title title-logo" alt="Medleys logo" id="image-logo" style="display: none;">
+        <div class="jumbotron-fluid position-relative">
+            <img src="/5NJjjo7gvy-320.webp" alt="Home" decoding="async" loading="eager" fetchpriority="high" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover; object-position: 50% 70%;" width="2000" height="1212" srcset="/5NJjjo7gvy-320.webp 320w, /5NJjjo7gvy-480.webp 480w, /5NJjjo7gvy-600.webp 600w, /5NJjjo7gvy-768.webp 768w, /5NJjjo7gvy-1024.webp 1024w, /5NJjjo7gvy-1440.webp 1440w, /5NJjjo7gvy-1920.webp 1920w, /5NJjjo7gvy-2000.webp 2000w" sizes="100vw">
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
+            </div>
+            <div class="jumbotron">
+                <video autoplay="" muted="" playsinline="" class="display-title title-logo" id="video-logo">
+                    <source src="assets/logo-animation-cropped.webm" type="video/webm">
+                </video>
+                <img src="assets/logo-animation-cropped.jpg" class="display-title title-logo" alt="Medleys logo" id="image-logo" style="display: none;">
+            </div>
         </div>
         <div class="content-wrap" style="background-color: var(--medleys-blue);">
             <div class="container-md" style="text-align: left; color: white;">
@@ -45,7 +51,7 @@
                     </section>
                     <section class="col col-lg-margin">
                         <div class="col-img-container">
-                            <img src="assets/photos/who-we-are.jpg" class="col-img shadow" alt="Group photo of Medleys">
+                            <img src="/iMWEBdOcUZ-320.webp" class="col-img shadow" alt="Group photo of Medleys" sizes="(min-width: 768px) 550px, 100vw" loading="lazy" decoding="async" width="1200" height="803" srcset="/iMWEBdOcUZ-320.webp 320w, /iMWEBdOcUZ-480.webp 480w, /iMWEBdOcUZ-600.webp 600w, /iMWEBdOcUZ-768.webp 768w, /iMWEBdOcUZ-1024.webp 1024w, /iMWEBdOcUZ-1200.webp 1200w">
                         </div>
                     </section>
                 </div>
@@ -56,7 +62,7 @@
                 <div class="row row-lg-margin row-cols-1 row-cols-lg-2 justify-content-left">
                     <section class="col col-lg-margin order-2 order-lg-1">
                         <div class="col-img-container">
-                            <img src="assets/photos/what-we-do.jpg" class="col-img shadow" alt="Medleys caroling with People-Animal Connection">
+                            <img src="/dO9z_koxkp-320.webp" class="col-img shadow" alt="Medleys caroling with People-Animal Connection" sizes="(min-width: 768px) 550px, 100vw" loading="lazy" decoding="async" width="1600" height="1138" srcset="/dO9z_koxkp-320.webp 320w, /dO9z_koxkp-480.webp 480w, /dO9z_koxkp-600.webp 600w, /dO9z_koxkp-768.webp 768w, /dO9z_koxkp-1024.webp 1024w, /dO9z_koxkp-1440.webp 1440w, /dO9z_koxkp-1600.webp 1600w">
                         </div>
                     </section>
                     <section class="col col-lg-margin order-1 order-lg-2" style="text-align: left;">
@@ -67,27 +73,28 @@
                 </div>
             </div>
         </div>
+        <script src="js/index.js"></script>
+
         <footer class="footer">
             <div class="container-md" style="text-align: center;">
                 <p>Follow us on social media!</p>
-                <a href="https://www.youtube.com/channel/UCx0vT8btgxHZ2LJuhMA686g" target="_blank" class="icon-link"><img src="assets/youtube.svg" alt="YouTube" style="height: 2em;"></a>
-                <a href="https://www.instagram.com/medleysacappella/" target="_blank" class="icon-link"><img src="assets/instagram.svg" alt="Instagram" style="height: 2em;"></a>
-                <a href="https://www.facebook.com/medleysacappella/" target="_blank" class="icon-link"><img src="assets/facebook.svg" alt="Facebook" style="height: 2em;"></a>
+                <a href="https://www.youtube.com/channel/UCx0vT8btgxHZ2LJuhMA686g" target="_blank" class="icon-link"><img src="assets/youtube.svg" alt="YouTube" width="16px" height="16px" style="height: 2em; width: auto;"></a>
+                <a href="https://www.instagram.com/medleysacappella/" target="_blank" class="icon-link"><img src="assets/instagram.svg" alt="Instagram" style="height: 2em; width: auto;"></a>
+                <a href="https://www.facebook.com/medleysacappella/" target="_blank" class="icon-link"><img src="assets/facebook.svg" alt="Facebook" style="height: 2em; width: auto;"></a>
                 <p>&copy; 2024–2025 Medleys A Cappella</p>
                 <p>
                     Designed with
-                    <img src="assets/heart-fill.svg" alt="Heart" style="height: 1em;">
+                    <img src="assets/heart-fill.svg" alt="Heart" style="height: 1em; width: auto;">
                     by Joy Cheng
                 </p>
-                <picture>
+                <picture eleventy:ignore="">
                     <source media="(min-width: 992px)" srcset="assets/footer-banner-large.png" style="width: 100%;">
                     <source media="(min-width: 576px)" srcset="assets/footer-banner-medium.png" style="width: 100%;">
-                    <img src="assets/footer-banner-small.png" alt="Medleys footer collage" style="width: 100%;">
+                    <img eleventy:ignore="" src="assets/footer-banner-small.png" alt="Medleys footer collage" style="width: 100%;">
                 </picture>
             </div>
         </footer>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/custom.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+        <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async=""></script>
     </body>
 </html>

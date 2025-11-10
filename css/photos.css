@@ -70,6 +70,31 @@
     object-position: 50% 50%;
 }
 
+.portrait-fiona-zhang {
+    height: 120%;
+    transform: translate(0%, -12%);
+    object-position: 58% 50%;
+}
+
+.portrait-aarya-patel {
+    height: 230%;
+    transform: translate(0%, -36%);
+    object-position: 62% 50%;
+}
+
+.portrait-max-liu {
+    height: 160%;
+    transform: translate(0%, 0%);
+    object-position: 50% 50%;
+}
+
+.portrait-joshua-nghiem {
+    height: 150%;
+    width: 100%;
+    transform: translate(0%, -8%);
+    object-position: 40% 50%;
+}
+
 .img-pediatric-aids-coalition::after {
     padding-bottom: 56.155%;
 }

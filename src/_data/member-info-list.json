@@ -23,24 +23,6 @@
                 "quote": "\"Not everyone can become a great artist, but a great artist can come from anywhere.\" —Anton Ego (<i>Ratatouille</i>)"
             },
             {
-                "name": "Chelsea Greene",
-                "year-joined": "2021",
-                "voice-part": "Soprano",
-                "pronouns": "She/Her",
-                "slug": "chelsea-greene",
-                "past-leadership": "Birthday Chair, Social Media Chair, Music Director, Love Notes Manager",
-                "class": "2025",
-                "major": "Psychobiology",
-                "minor": "History",
-                "hometown": "Crystal Lake, IL",
-                "interests": "Traveling, trying new foods, hiking, watching movies, and writing music",
-                "fun-fact": "Halloween is my favorite holiday.",
-                "audition-song": "\"My Future\" by Billie Eilish",
-                "shower-song": "\"Viva La Vida\" by Coldplay",
-                "musical-artist": "Her's",
-                "quote": "\"When your tail is missing, remember you have every right to mope.\" —Eeyore (<i>Winnie the Pooh</i>)"
-            },
-            {
                 "name": "Sandra Pan",
                 "year-joined": "2024",
                 "voice-part": "Soprano, Vocal Percussionist",
@@ -75,6 +57,38 @@
                 "shower-song": "\"Upside Down\" by Jack Johnson!",
                 "musical-artist": "Taylor Swift",
                 "quote": "\"Hard work beats talent when talent doesn't work hard.\" —Tim Notke"
+            },
+            {
+                "name": "Fiona Zhang",
+                "year-joined": "2025",
+                "voice-part": "Soprano",
+                "pronouns": "She/Her",
+                "slug": "fiona-zhang",
+                "class": "2029",
+                "major": "Business Economics",
+                "hometown": "Shanghai, China",
+                "interests": "Watching sitcoms, drinking matcha, cafe hopping, karaoke sessions",
+                "fun-fact": "I ran into Lily (Aubrey Anderson-Emmons) from <i>Modern Family</i> outside Rieber Hall!",
+                "audition-song": "\"Wildflower\" by Billie Eilish",
+                "shower-song": "\"Oceans and Engines\" by NIKI",
+                "musical-artist": "Keshi",
+                "quote": "\"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.\" —Grand Master Oogway (<i>Kung Fu Panda</i>)"
+            },
+            {
+                "name": "Julia Brandt",
+                "year-joined": "2025",
+                "voice-part": "Soprano",
+                "pronouns": "She/Her",
+                "slug": "julia-brandt",
+                "class": "2027",
+                "majors": "Mathematics, Music Industry",
+                "hometown": "Lafayette, CA",
+                "interests": "Drawing, painting, songwriting, reading",
+                "fun-fact": "I used to live in Westwood near UCLA until middle school!",
+                "audition-song": "\"Vienna\" by Billy Joel",
+                "shower-song": "\"Both Sides Now\" by Joni Mitchell",
+                "musical-artist": "Stevie Wonder",
+                "quote": "\"There's the whole world at your feet. And who gets to see it but the birds, the stars, and the chimney sweeps.\" —Bert (<i>Mary Poppins</i>)"
             }
         ]
     },
@@ -100,23 +114,6 @@
                 "shower-song": "\"Someone Like You\" by Adele",
                 "musical-artist": "Bruno Major or Ricky Montgomery",
                 "quote": "\"The whole world is a series of miracles, but we're so used to them we call them ordinary things.\" —Hans Christian Anderson"
-            },
-            {
-                "name": "Lani Jacobson",
-                "year-joined": "2021",
-                "voice-part": "Alto",
-                "pronouns": "She/Her",
-                "slug": "lani-jacobson",
-                "past-leadership": "Member Development Chair, Social Media Chair, Manager, Webmaster",
-                "class": "2025",
-                "majors": "Communications, Disability Studies",
-                "hometown": "Laguna Hills, CA",
-                "interests": "Community service, photography (@lanis_lens on Instagram), watching sitcoms, baking, listening to podcasts, reading, and going on walks!",
-                "fun-fact": "I have two middle names!",
-                "audition-song": "\"I Won't Give Up\" by Jason Mraz",
-                "shower-song": "\"Pink Pony Club\" by Chappell Roan",
-                "musical-artist": "Taylor Swift",
-                "quote": "\"There is only one happiness in this life, to love and be loved.\" —George Sand"
             },
             {
                 "name": "Hinata Nayuki",
@@ -153,6 +150,37 @@
                 "shower-song": "Something from a musical! (Current favs are <i>Mamma Mia</i>, <i>Six</i>, and <i>La La Land</i>)",
                 "musical-artist": "Laufey and IU",
                 "quote": "\"Just be a rock.\" —Jobu Tupaki (<i>Everything Everywhere All At Once</i>)"
+            },
+            {
+                "name": "Meghanne Chan",
+                "year-joined": "2025",
+                "voice-part": "Alto",
+                "pronouns": "She/Her",
+                "slug": "meghanne-chan",
+                "class": "2029",
+                "major": "Physiological Science",
+                "hometown": "Patterson, CA",
+                "interests": "Tennis, music, hiking, concerts, dancing, and mountain biking",
+                "fun-fact": "I was in band for 8 years and I've never been in an a cappella or choir group.",
+                "audition-song": "\"Sweet Pumpkin\" by Samara Joy",
+                "shower-song": "\"My All\" by Mariah Carey",
+                "musical-artist": "Daniel Caesar, PLAVE, and ko-ko-ya",
+                "quote": "\"True knowledge exists in knowing that you know nothing.\""
+            },
+            {
+                "name": "Aarya Patel",
+                "year-joined": "2025",
+                "voice-part": "Alto",
+                "pronouns": "She/Her",
+                "slug": "aarya-patel",
+                "class": "2029",
+                "major": "Business Economics",
+                "hometown": "Edison, NJ",
+                "interests": "Fashion, escape rooms, traveling, thrifting",
+                "fun-fact": "I really like hotpot!",
+                "audition-song": "\"Decode\" by Paramore",
+                "shower-song": "Anything Ariana Grande",
+                "musical-artist": "Don Toliver"
             }
         ]
     },
@@ -162,21 +190,20 @@
         "members":
         [
             {
-                "name": "Jack Moore",
-                "year-joined": "2021",
+                "name": "Max Liu",
+                "year-joined": "2025",
                 "voice-part": "Tenor, Vocal Percussionist",
                 "pronouns": "He/Him",
-                "slug": "jack-moore",
-                "past-leadership": "Music Director",
-                "class": "2025",
-                "major": "Bioengineering",
-                "hometown": "Columbia, MD",
-                "interests": "Biology, human health, and music",
-                "fun-fact": "I can hyperextend both of my arms.",
-                "audition-song": "\"She Wants Me (To Be Loved)\" by The Happy Fits",
-                "shower-song": "\"Carnivore\" by Bear Attack",
-                "musical-artist": "At the moment, AJR",
-                "quote": "\"The definition of insanity is doing the same thing over and over again and expecting a different result.\""
+                "slug": "max-liu",
+                "class": "2029",
+                "major": "Electrical Engineering",
+                "hometown": "San Jose, CA",
+                "interests": "Singing, hiking, roofing, guitar, volleyball, ping-pong, and sports and music in general",
+                "fun-fact": "I have a brother that is 8 years younger than me.",
+                "audition-song": "\"When I Was Your Man\" by Bruno Mars",
+                "shower-song": "\"Want to Want Me\" by Jason Derulo",
+                "musical-artist": "Bruno Mars",
+                "quote": "\"You either win or you learn.\""
             },
             {
                 "name": "Eric Wang",
@@ -256,21 +283,20 @@
                 "quote": "\"Inaction breeds doubt and fear. Action breeds confidence and courage. If you want to conquer fear, do not sit home and think about it. Go out and get busy.\" —Dale Carnegie"
             },
             {
-                "name": "Elliot Kang",
-                "year-joined": "2021",
+                "name": "Joshua Nghiem",
+                "year-joined": "2025",
                 "voice-part": "Bass",
                 "pronouns": "He/Him",
-                "slug": "elliot-kang",
-                "past-leadership": "Director of Community Engagement, Chief Financial Officer, Love Notes Manager",
-                "class": "2025",
-                "major": "Molecular, Cell, and Developmental Biology",
-                "hometown": "Pleasanton, CA",
-                "interests": "Playing instruments and deep dives on the internet into niche topics",
-                "fun-fact": "My fingers are horrifically double-jointed.",
-                "audition-song": "\"The Ash Grove\"",
-                "shower-song": "\"Poor Unfortunate Souls\" from <i>The Little Mermaid</i>",
-                "musical-artist": "John Mackey",
-                "quote": "\"Live to the point of tears.\" —Albert Camus"
+                "slug": "joshua-nghiem",
+                "class": "2029",
+                "major": "Psychobiology",
+                "hometown": "Simi Valley, CA",
+                "interests": "Violin, crochet, running, reading",
+                "fun-fact": "I listen to kdrama osts but I've never watched a single kdrama.",
+                "audition-song": "\"Like the Movies\" by Laufey",
+                "shower-song": "Laufey or Lady Gaga",
+                "musical-artist": "Laufey",
+                "quote": "\"Those who are clever, who have a brain, never understand anything.\""
             },
             {
                 "name": "Warren Wu",

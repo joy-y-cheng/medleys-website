@@ -285,11 +285,22 @@ body {
     }
 }
 
+.banner {
+    margin: 0 0 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
 .navbar {
     padding: 10px 0px;
     background-color: white;
     box-shadow: 0px 0px 10px var(--shadow-color);
     position: fixed;
+}
+
+.navbar-with-banner {
+    padding-top: 0px;
 }
 
 .navbar-nav {
@@ -363,17 +374,11 @@ a.nav-item.nav-link.active {
 .jumbotron {
     padding: 0;
     /* Keep the following line if no banner */
-    margin: 64px 0 0 0;
+    margin: 108px 0 0 0;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
     min-height: 50vw;
-}
-
-.banner {
-    margin: 64px 0 0 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .content-wrap {

@@ -7,7 +7,7 @@
     "test": "",
     "prebuild": "rm -rf _site",
     "build": "npx @11ty/eleventy",
-    "postbuild": "node postbuild",
+    "postbuild": "node postbuild.js",
     "start": "npx @11ty/eleventy --serve"
   },
   "keywords": [],

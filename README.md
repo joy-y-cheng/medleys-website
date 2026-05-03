@@ -1,11 +1,29 @@
 # Medleys Website
 
-This is the website for Medleys A Cappella, a community service-based a cappella group at UCLA.
+This is the website for [Medleys A Cappella](https://www.medleysacappella.org/), a community service-based a cappella group at UCLA.
 
-## Installations
+## Setup
 
-Run `npm ci` to install dependencies.
+Clone the GitHub repo and install dependencies.
 
-## Modifications
+```sh
+git clone https://github.com/joy-y-cheng/medleys-website.git
+cd medleys-website
+npm ci
+```
 
-View the site live by starting a local server with `npm run start`. To preview your changes, run `npm run build` to rebuild the site using Eleventy. Push changes to deploy.
+## Building
+
+View the site live by starting a local server.
+
+```sh
+npm run start
+```
+
+To preview your changes, rebuild the site using Eleventy.
+
+```sh
+npm run build
+```
+
+Push changes to deploy.

@@ -12,7 +12,7 @@ cd medleys-website
 npm ci
 ```
 
-## Building
+## Contributing
 
 View the site live by starting a local server.
 

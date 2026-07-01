@@ -9,19 +9,19 @@
 }
 
 .banner-auditions {
-    object-position: 50% 55%;
-}
-
-.banner-love-notes {
-    object-position: 50% 50%;
-}
-
-.banner-service {
     object-position: 50% 40%;
 }
 
-.banner-gallery {
+.banner-love-notes {
+    object-position: 50% 40%;
+}
+
+.banner-service {
     object-position: 50% 30%;
+}
+
+.banner-gallery {
+    object-position: 50% 40%;
 }
 
 .banner-contact {

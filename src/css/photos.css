@@ -42,10 +42,6 @@
     object-position: 50% 10%;
 }
 
-.portrait-joy-cheng {
-    object-position: 50% 45%;
-}
-
 .portrait-steve-chung {
     object-position: 50% 50%;
 }
@@ -76,6 +72,12 @@
 
 .portrait-deena-doan {
     object-position: 50% 50%;
+}
+
+.portrait-joy-cheng {
+    width: 120%;
+    transform: translate(-9%, 0%);
+    object-position: 50% 34%;
 }
 
 .portrait-brandon-tang {

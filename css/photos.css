@@ -1,3 +1,35 @@
+/* Jumbotron banners */
+
+.banner-home {
+    object-position: 50% 60%;
+}
+
+.banner-members {
+    object-position: 50% 70%;
+}
+
+.banner-auditions {
+    object-position: 50% 55%;
+}
+
+.banner-love-notes {
+    object-position: 50% 50%;
+}
+
+.banner-service {
+    object-position: 50% 40%;
+}
+
+.banner-gallery {
+    object-position: 50% 30%;
+}
+
+.banner-contact {
+    object-position: 50% 60%;
+}
+
+/* Members */
+
 .portrait-chelsea-greene {
     object-position: 50% 60%;
 }
@@ -90,10 +122,13 @@
 
 .portrait-joshua-nghiem {
     height: 150%;
-    width: 100%;
     transform: translate(0%, -8%);
     object-position: 40% 50%;
 }
+
+/* Service */
+
+/* Adjust padding-bottom to change the aspect ratio of a service image */
 
 .img-pediatric-aids-coalition::after {
     padding-bottom: 56.155%;

@@ -22,7 +22,11 @@ root: ../
                         <h1 style="color: var(--love-notes-red); margin-top: 0;">Singing Valentines</h1>
                         <p class="lead" style="color: black;">Looking for a fun, musical way to surprise a loved one during the week of Valentine's Day? Send a Medleys serenade!</p>
                         <p style="margin-bottom: 0">We'll help you go all out for your boo, surprise your favorite professor, or make your friend's day—all while supporting the <a href="https://downtownwomenscenter.org/" target="_blank" class="red-link">Downtown Women's Center</a>.</p>
-                        <a class="red-btn btn disabled" href="https://forms.gle/yWXHWrBmjiNfo3Bn6" role="button" target="_blank" style="margin-bottom: 0px;">
+                        {%- if miscellaneous.show-love-notes-active -%}
+                        <a class="red-btn btn" href="{{ miscellaneous.love-notes-button-link }}" role="button" target="_blank" style="margin-bottom: 0px;">
+                        {%- else -%}
+                        <a class="red-btn btn disabled" role="button" style="margin-bottom: 0px;">
+                        {%- endif -%}
                             <p class="lead" style="margin: 0px">
                                 Book a Love Note
                                 <img eleventy:ignore src="{{root}}assets/arrow-through-heart-fill.svg" alt="Arrow through heart" style="height: 1em; width: auto;">

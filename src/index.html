@@ -3,10 +3,14 @@ layout: _layout.html
 title: Home
 ---
         <div class="jumbotron-fluid position-relative">
-            <img src="{{root}}assets/photos/home.jpg" alt="Home" decoding="async" loading="eager" fetchpriority="high" class="w-100 h-100 position-absolute top-0 start-0 banner-home" style="object-fit: cover;" />
+            <img src="{{root}}assets/photos/home.jpg" alt="Home" decoding="async" loading="eager" fetchpriority="high" class="w-100 h-100 position-absolute top-0 start-0 jumbotron-home" style="object-fit: cover;" />
             <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
             </div>
+            {%- if miscellaneous.show-top-banner -%}
+            <div class="jumbotron jumbotron-with-banner">
+            {%- else -%}
             <div class="jumbotron">
+            {%- endif -%}
                 <video autoplay muted playsinline class="display-title title-logo" id="video-logo">
                     <source src="{{root}}assets/logo-animation-cropped.webm" type="video/webm">
                 </video>
@@ -39,7 +43,7 @@ title: Home
                     </section>
                     <section class="col col-lg-margin order-1 order-lg-2" style="text-align: left;">
                         <h1 style="color: var(--medleys-blue); margin-top: 0;">What We Do</h1>
-                        <p class="lead">In our 22nd year, we are dedicated to bringing the joy and healing of music to locations all around Los Angeles.</p>
+                        <p class="lead">In our {{ miscellaneous.year }} year, we are dedicated to bringing the joy and healing of music to locations all around Los Angeles.</p>
                         <p style="margin-bottom: 0;">Some of our favorite places to perform have been Providence Saint John's Health Center in Santa Monica, the Downtown Women's Center, UCLA Dance Marathon, and the UCLA Farmers Market. Wherever we go, we hope to make a difference—even if that means brightening a single person's day!</p>    
                     </section>
                 </div>

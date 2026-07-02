@@ -4,10 +4,14 @@ title: Contact
 root: ../
 ---
         <div class="jumbotron-fluid position-relative">
-            <img src="{{root}}assets/photos/contact.jpg" alt="Contact" decoding="async" loading="eager" fetchpriority="high" class="w-100 h-100 position-absolute top-0 start-0 banner-contact" style="object-fit: cover;" />
+            <img src="{{root}}assets/photos/contact.jpg" alt="Contact" decoding="async" loading="eager" fetchpriority="high" class="w-100 h-100 position-absolute top-0 start-0 jumbotron-contact" style="object-fit: cover;" />
             <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
             </div>
+            {%- if miscellaneous.show-top-banner -%}
+            <div class="jumbotron position-relative jumbotron-with-banner">
+            {%- else -%}
             <div class="jumbotron position-relative">
+            {%- endif -%}
                 <h1 class="display-title">Contact</h1>
             </div>
         </div>

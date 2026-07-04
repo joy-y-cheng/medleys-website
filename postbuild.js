@@ -29,4 +29,4 @@ xml += '</urlset>';
 // Write file
 fs.writeFileSync(outputPath, xml, "utf8");
 
-console.log(`✅ Generated ${outputPath}`);
+console.log(`Generated ${outputPath}`);

@@ -2,6 +2,8 @@
 
 This is the website for [Medleys A Cappella](https://www.medleysacappella.org/), a community service-based a cappella group at UCLA.
 
+Please see the [Web Turnover Document](web-turnover-document.pdf) for thorough details on setting up your environment and updating the site throughout the academic year!
+
 ## Setup
 
 Clone the GitHub repo and install dependencies.
@@ -14,13 +16,13 @@ npm ci
 
 ## Contributing
 
-View the site live by starting a local server.
+Preview the site live by starting a local server.
 
 ```sh
 npm run start
 ```
 
-To preview your changes, rebuild the site using Eleventy.
+Alternatively, rebuild the site using Eleventy to preview your changes.
 
 ```sh
 npm run build

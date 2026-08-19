@@ -34,6 +34,19 @@
         ]
     },
     {
+        "organization": "New Horizons",
+        "slug": "new-horizons",
+        "description": "Last year, we were thrilled to launch our new partnership with New Horizons, an incredible organization in Los Angeles that serves individuals with special needs! During the holiday season, we spread cheer by singing Christmas carols for their wonderful members and dedicated staff. We also love returning in the spring to share some of our favorite Valentine's songs and celebrate the season of love!",
+        "images": 4,
+        "links":
+        [
+            {
+                "text": "Learn more about New Horizons",
+                "url": "https://newhorizons-sfv.org/"
+            }
+        ]
+    },
+    {
         "organization": "Reading to Kids",
         "slug": "reading-to-kids",
         "description": "We enjoy reading to students with the volunteers at Reading to Kids at various elementary schools in Los Angeles, including MacArthur Park Elementary School and Magnolia Avenue Elementary School. Every year since 2024, we have performed our setlist at Reading to Kids' March \"Music and Entertainment\"-themed reading club.",

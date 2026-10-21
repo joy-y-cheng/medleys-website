@@ -5,23 +5,6 @@
         "members":
         [
             {
-                "name": "Claire Chien",
-                "year-joined": "2023",
-                "voice-part": "Soprano",
-                "pronouns": "She/Her",
-                "slug": "claire-chien",
-                "past-leadership": "Love Notes Manager, Manager",
-                "class": "2026",
-                "major": "Computer Science",
-                "hometown": "Irvine, CA",
-                "interests": "Reading, birdwatching, hiking, baking, and rug tufting",
-                "fun-fact": "I love soup!!!",
-                "audition-song": "\"What Was I Made For?\" by Billie Eilish",
-                "shower-song": "\"Still Into You\" by Paramore",
-                "musical-artist": "Taylor Swift",
-                "quote": "\"Not everyone can become a great artist, but a great artist can come from anywhere.\" —Anton Ego (<i>Ratatouille</i>)"
-            },
-            {
                 "name": "Sandra Pan",
                 "year-joined": "2024",
                 "voice-part": "Soprano, Vocal Percussionist",
@@ -99,40 +82,6 @@
         "is-light-color": false,
         "members":
         [
-            {
-                "name": "Joy Cheng",
-                "year-joined": "2022",
-                "voice-part": "Alto",
-                "pronouns": "She/Her",
-                "slug": "joy-cheng",
-                "past-leadership": "Manager, Birthday Chair, Webmaster",
-                "class": "2026",
-                "major": "Computer Science",
-                "hometown": "Culver City, CA",
-                "interests": "Formatting things, solving logic puzzles, folding origami, and biking along the beach",
-                "fun-fact": "My first pet was a betta fish named Beethoven.",
-                "audition-song": "\"Colors of the Wind\" by Stephen Schwartz",
-                "shower-song": "\"Someone Like You\" by Adele",
-                "musical-artist": "Bruno Major",
-                "quote": "\"The whole world is a series of miracles, but we're so used to them we call them ordinary things.\" —Hans Christian Anderson"
-            },
-            {
-                "name": "Hinata Nayuki",
-                "year-joined": "2022",
-                "voice-part": "Alto",
-                "pronouns": "She/Her",
-                "slug": "hinata-nayuki",
-                "past-leadership": "Webmaster, Chief Financial Officer",
-                "class": "2026",
-                "major": "Microbiology, Immunology, and Molecular Genetics",
-                "hometown": "Torrance, CA",
-                "interests": "Building metal models, playing the piano, and reading murder mysteries!",
-                "fun-fact": "I suggested that we hunt and eat the big duck on my audition form (you'll get it if you audition 👀).",
-                "audition-song": "\"火炎\" by Queen Bee",
-                "shower-song": "\"Someone To You\" by Banners",
-                "musical-artist": "Official髭男dism",
-                "quote": "\"I'm going to bed before either of you come up with another clever idea to get us killed—or worse, expelled.\" —Hermione Granger"
-            },
             {
                 "name": "Khanh Tran",
                 "year-joined": "2023",
@@ -212,23 +161,6 @@
                 "quote": "\"You either win or you learn.\""
             },
             {
-                "name": "Eric Wang",
-                "year-joined": "2023",
-                "voice-part": "Tenor",
-                "pronouns": "He/Him",
-                "slug": "eric-wang",
-                "past-leadership": "Music Director, Webmaster",
-                "class": "2026",
-                "major": "Computer Science",
-                "hometown": "Greensboro, NC",
-                "interests": "Playing piano and cello, watching/reading anime/manga, and writing short stories",
-                "fun-fact": "I have a very cute dog back at home; her name is Allie.",
-                "audition-song": "\"California and Me\" by Laufey",
-                "shower-song": "Anything off of <i>Chet Baker Sings</i> (like \"But Not For Me,\" including mouth-trumpet solo)",
-                "musical-artist": "I dunno: Laufey? Chet Baker? Tennyson?",
-                "quote": "\"Don't be clever.\" —Bjarne Stroustrup"
-            },
-            {
                 "name": "Dylan Zou-Schupp",
                 "year-joined": "2023",
                 "voice-part": "Tenor",
@@ -304,23 +236,6 @@
                 "shower-song": "Laufey or Lady Gaga",
                 "musical-artist": "Laufey",
                 "quote": "\"Those who are clever, who have a brain, never understand anything.\""
-            },
-            {
-                "name": "Warren Wu",
-                "year-joined": "2022",
-                "voice-part": "Bass",
-                "pronouns": "He/Him",
-                "slug": "warren-wu",
-                "past-leadership": "Member Development Chair, Love Notes Manager",
-                "class": "2026",
-                "major": "Data Theory",
-                "hometown": "Bedminster, NJ",
-                "interests": "Singing and music (obviously), watching hockey and basketball, and watching old/classic TV shows/movies",
-                "fun-fact": "In 2021, I listened to music on Spotify for 128,658 minutes (2,144 hours or more than 89 days if you do the math).",
-                "audition-song": "\"一生守候\" (\"A Lifetime of Waiting\")",
-                "shower-song": "\"Look What You Made Me Do\" by Taylor Swift",
-                "musical-artist": "Dua Lipa and Kendrick Lamar",
-                "quote": "\"Don't hurt yourself.\" —Beyoncé"
             },
             {
                 "name": "David Xu",

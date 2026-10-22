@@ -74,6 +74,22 @@
                 "shower-song": "\"Both Sides Now\" by Joni Mitchell",
                 "musical-artist": "Stevie Wonder",
                 "quote": "\"There's the whole world at your feet. And who gets to see it but the birds, the stars, and the chimney sweeps.\" —Bert (<i>Mary Poppins</i>)"
+            },
+            {
+                "name": "Cadie Ho",
+                "year-joined": "2026",
+                "voice-part": "Soprano",
+                "pronouns": "She/Her",
+                "slug": "cadie-ho",
+                "class": "2029",
+                "major": "Neuroscience",
+                "hometown": "Los Gatos, California",
+                "interests": "Playing piano, badminton, learning languages, eating good food",
+                "fun-fact": "I used to have pet shrimp",
+                "audition-song": "\"Vienna\" by Billy Joel",
+                "shower-song": "\"Wildflower\" by Billie Eilish",
+                "musical-artist": "Aurora",
+                "quote": "\"At the end of the day, it's night.\" —unknown"
             }
         ]
     },
@@ -134,6 +150,22 @@
                 "audition-song": "\"Decode\" by Paramore",
                 "shower-song": "Anything Ariana Grande",
                 "musical-artist": "Don Toliver"
+            },
+            {
+                "name": "Amy Tsutsumi",
+                "year-joined": "2026",
+                "voice-part": "Alto",
+                "pronouns": "She/Her",
+                "slug": "amy-tsutsumi",
+                "class": "2030",
+                "major": "Physiological Science",
+                "hometown": "Riverside, California",
+                "interests": "LOVE TO SING, dance, listen to music, exercise, and spend time with my friends",
+                "fun-fact": "I can speak five languages, and I'm partially ambidextrous ",
+                "audition-song": "\"Silver Lining\" by Lauren",
+                "shower-song": "DEFINITELY DANIEL CAESAR SONGS OR BTS",
+                "musical-artist": "BTS",
+                "quote": "\"Veni, Vidi, Vici\" —Julius Caesar"
             }
         ]
     },
@@ -142,24 +174,6 @@
         "is-light-color": true,
         "members":
         [
-            {
-                "name": "Max Liu",
-                "year-joined": "2025",
-                "voice-part": "Tenor, Vocal Percussionist",
-                "pronouns": "He/Him",
-                "slug": "max-liu",
-                "class": "2029",
-                "leadership":"Chief Financial Officer, Webmaster",
-                "past-leadership": "Love Notes Manager",
-                "major": "Electrical Engineering",
-                "hometown": "San Jose, CA",
-                "interests": "Singing, hiking, rooftopping, guitar, volleyball, ping-pong, and sports and music in general",
-                "fun-fact": "I sang the national anthem for the warriors in the chase center with my choir twice.",
-                "audition-song": "\"When I Was Your Man\" by Bruno Mars",
-                "shower-song": "\"Want to Want Me\" by Jason Derulo",
-                "musical-artist": "Bruno Mars",
-                "quote": "\"You either win or you learn.\""
-            },
             {
                 "name": "Dylan Zou-Schupp",
                 "year-joined": "2023",
@@ -194,6 +208,40 @@
                 "shower-song": "\"Bills, Bills, Bills\" by Destiny's Child",
                 "musical-artist": "Ariana Grande",
                 "quote": "\"You never know the value of a moment until it becomes a memory.\""
+            },
+            {
+                "name": "Max Liu",
+                "year-joined": "2025",
+                "voice-part": "Tenor, Vocal Percussionist",
+                "pronouns": "He/Him",
+                "slug": "max-liu",
+                "class": "2029",
+                "leadership":"Chief Financial Officer, Webmaster",
+                "past-leadership": "Love Notes Manager",
+                "major": "Electrical Engineering",
+                "hometown": "San Jose, CA",
+                "interests": "Singing, hiking, rooftopping, guitar, volleyball, ping-pong, and sports and music in general",
+                "fun-fact": "I sang the national anthem for the warriors in the chase center with my choir twice.",
+                "audition-song": "\"When I Was Your Man\" by Bruno Mars",
+                "shower-song": "\"Want to Want Me\" by Jason Derulo",
+                "musical-artist": "Bruno Mars",
+                "quote": "\"You either win or you learn.\""
+            },
+            {
+                "name": "Thomas Nie",
+                "year-joined": "2026",
+                "voice-part": "Tenor",
+                "pronouns": "He/Him",
+                "slug": "thomas-nie",
+                "class": "2029",
+                "major": "Financial Actuarial Mathematics",
+                "hometown": "San Mateo, California",
+                "interests": "Rock climbing, photography, guitar",
+                "fun-fact": "I can crack my neck",
+                "audition-song": "\"Someone You Loved\" by Lewis Capaldi",
+                "shower-song": "\"As Long as You Love Me\" by Backstreet Boys",
+                "musical-artist": "Chance Peña",
+                "quote": "\"Done is better than perfect.\""
             }
         ]
     },
@@ -219,23 +267,6 @@
                 "shower-song": "\"Ain't No Sunshine\" by Bill Withers",
                 "musical-artist": "Frank Sinatra",
                 "quote": "\"Inaction breeds doubt and fear. Action breeds confidence and courage. If you want to conquer fear, do not sit home and think about it. Go out and get busy.\" —Dale Carnegie"
-            },
-            {
-                "name": "Joshua Nghiem",
-                "year-joined": "2025",
-                "voice-part": "Bass",
-                "pronouns": "He/Him",
-                "slug": "joshua-nghiem",
-                "class": "2029",
-                "leadership":"Music Director",
-                "major": "Psychobiology",
-                "hometown": "Simi Valley, CA",
-                "interests": "Violin, crochet, running, reading",
-                "fun-fact": "I listen to kdrama osts but I've never watched a single kdrama.",
-                "audition-song": "\"Like the Movies\" by Laufey",
-                "shower-song": "Laufey or Lady Gaga",
-                "musical-artist": "Laufey",
-                "quote": "\"Those who are clever, who have a brain, never understand anything.\""
             },
             {
                 "name": "David Xu",
@@ -269,6 +300,39 @@
                 "audition-song": "\"Sixteen Tons\" by Tennessee Ernie Ford (covered by Geoff Castellucci)",
                 "shower-song": "\"Kickback\" by Yonezu Kenshi and other anime songs",
                 "musical-artist": "Ado"
+            },
+            {
+                "name": "Joshua Nghiem",
+                "year-joined": "2025",
+                "voice-part": "Bass",
+                "pronouns": "He/Him",
+                "slug": "joshua-nghiem",
+                "class": "2029",
+                "leadership":"Music Director",
+                "major": "Psychobiology",
+                "hometown": "Simi Valley, CA",
+                "interests": "Violin, crochet, running, reading",
+                "fun-fact": "I listen to kdrama osts but I've never watched a single kdrama.",
+                "audition-song": "\"Like the Movies\" by Laufey",
+                "shower-song": "Laufey or Lady Gaga",
+                "musical-artist": "Laufey",
+                "quote": "\"Those who are clever, who have a brain, never understand anything.\""
+            },
+            {
+                "name": "Andy Yang",
+                "year-joined": "2026",
+                "voice-part": "Bass",
+                "pronouns": "He/Him",
+                "slug": "andy-yang",
+                "class": "2029",
+                "major": "Applied Math",
+                "minor": "Data Science Engineering",
+                "hometown": "Wellesley, Massachusetts",
+                "interests": "I play volleyball and I like games of any type (board games, video games, word games, etc.)",
+                "audition-song": "\"Imagine\" by John Lennon",
+                "shower-song": "\"Mad\" by Ne-Yo",
+                "musical-artist": "The Weeknd",
+                "quote": "\"Carpe the heck out of the diem\" —My 10th grade English teacher"
             }
         ]
     }

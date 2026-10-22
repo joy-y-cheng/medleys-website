@@ -117,8 +117,8 @@
 }
 
 .portrait-max-liu {
-    height: 160%;
-    transform: translate(0%, 0%);
+    height: 170%;
+    transform: translate(0%, -10%);
     object-position: 50% 50%;
 }
 
@@ -126,6 +126,24 @@
     height: 150%;
     transform: translate(0%, -8%);
     object-position: 40% 50%;
+}
+
+.portrait-andy-yang {
+    height: 200%;
+    transform: translate(0%, -25%);
+    object-position: 50% 50%;
+}
+
+.portrait-amy-tsutsumi {
+    height: 210%;
+    transform: translate(0%, -25%);
+    object-position: 50% 50%;
+}
+
+.portrait-cadie-ho {
+    height: 115%;
+    transform: translate(0%, -12%);
+    object-position: 50% 50%;
 }
 
 /* Service */
